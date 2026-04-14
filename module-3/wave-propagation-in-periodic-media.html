@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Polarization · Optoelectronics · Nano Library</title>
+    <title>Wave Propagation in Periodic Media · Optoelectronics · Nano Library</title>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600;700&family=Nunito:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet"/>
@@ -65,14 +65,275 @@
 			<span class="divider-line"></span>
 		</div>
 
-
 		<div class="content-body">
 
-			<div class="intro-card">
-				✨ 
+            <div class="section-head">
+				<div class="section-head-number"></div>
+				<h2>Periodic Medium</h2>
 			</div>
 
+            <div class="formula-card">
+                <div class="formula-label">✦ Permittivity</div>
+                <div class="formula-number">✦ </div>
+                <div class="formula">
+                    <span class="var">\(\varepsilon {\color{#F08FB0}{ ( }} \vec{x} {\color{#F08FB0}{ ) }} \)</span>
+                    <span class="op">=</span>
+                    <span class="var">\(\varepsilon \: {\color{#F08FB0}{ ( }} \vec{x} \; {\color{#F08FB0}{ + }} \; \vec{a} {\color{#F08FB0}{ ) }}\)</span>
+                </div>
+            </div>
             
+            <div class="formula-card">
+                <div class="formula-label">✦ Permeabitlity</div>
+                <div class="formula-number">✦ </div>
+                <div class="formula">
+                    <span class="var">\(\mu {\color{#F08FB0}{ ( }} \vec{x} {\color{#F08FB0}{ ) }} \)</span>
+                    <span class="op">=</span>
+                    <span class="var">\(\mu \: {\color{#F08FB0}{ ( }} \vec{x} \; {\color{#F08FB0}{ + }} \; \vec{a} {\color{#F08FB0}{ ) }}\)</span>
+                </div>
+            </div>
+            
+             <div class="section-head">
+				<div class="section-head-number"></div>
+				<h2>Propagation of Monochromatic Optical Wave in Periodic Media</h2>
+			</div>
+
+            <div class="formula-card">
+                <div class="formula-number">✦ </div>
+                <div class="formula">
+                    <span class="var">\(\vec{\nabla} {\color{#F08FB0}{ \times }} \vec{E}\)</span>
+                    <span class="op">=</span>
+                    <span class="var">\({\color{#F08FB0}{ - }} \: i \: \omega \: \mu \: \vec{H}\)</span>
+                </div>
+            </div>
+
+            <div class="formula-card">
+                <div class="formula-number">✦ </div>
+                <div class="formula">
+                    <span class="var">\(\vec{\nabla} {\color{#F08FB0}{ \times }} \vec{H}\)</span>
+                    <span class="op">=</span>
+                    <span class="var">\(i \: \omega \: \varepsilon \: \vec{E}\)</span>
+                </div>
+            </div>
+        
+            <div class="section-head">
+				<div class="section-head-number"></div>
+				<h2>Normal Modes of Propagation</h2>
+			</div>
+            
+            <div class="formula-card">
+                <div class="formula-number">✦ </div>
+                <div class="formula">
+                    <span class="var">\(\vec{E}\)</span>
+                    <span class="op">=</span>
+                    <span class="var">\(\vec{E}_k \; e^{{\color{#F08FB0}{ - }} i \, \vec{k} \, \vec{x}}\)</span>
+                </div>
+            </div>
+
+            <div class="where-block blue">
+                <div class="where-label">where</div>
+                <div class="where-term">
+                    <span class="term-sym">\(k\)</span>
+                    <span class="term-sep">-</span>
+                    <span class="term-desc">block wave vector</span>
+                </div>
+                <div class="where-term">
+                    <span class="term-sym">\(\vec{E}_k\)</span>
+                    <span class="term-sep">-</span>
+                    <span class="term-desc">periodic amplitude</span>
+                </div>
+            </div>
+
+            <div class="formula-card">
+                <div class="formula-label">✦ Equation (13.6)</div>
+                <div class="formula">
+                    <span class="var">\(\vec{H}\)</span>
+                    <span class="op">=</span>
+                    <span class="var">\(\vec{H}_k\)</span>
+                    <span class="var">\(e^{-i \; \vec{k} \; \vec{x}}\)</span>
+                </div>
+            </div>
+
+            <div class="where-block blue">
+                <div class="where-label">where</div>
+                <div class="where-term">
+                    <span class="term-sym">\(k\)</span>
+                    <span class="term-sep">-</span>
+                    <span class="term-desc">block wave vector</span>
+                </div>
+                <div class="where-term">
+                    <span class="term-sym">\(\vec{H}_k\)</span>
+                    <span class="term-sep">-</span>
+                    <span class="term-desc">periodic amplitude</span>
+                </div>
+            </div>
+
+            <div class="section-head">
+				<div class="section-head-number"></div>
+				<h2>Floquet or Block Theorem</h2>
+			</div>
+
+            <div class="formula-card">
+                <div class="formula-number">✦ </div>
+                <div class="formula">
+                    <span class="var">\(\vec{E}_k (\vec{x}) \)</span>
+                    <span class="op">=</span>
+                    <span class="var">\(\vec{E}_k \: {\color{#F08FB0}{ ( }} \vec{x} \; {\color{#F08FB0}{ + }} \; \vec{a} {\color{#F08FB0}{ ) }}\)</span>
+                </div>
+            </div>
+
+            <div class="formula-card">
+                <div class="formula-number">✦ </div>
+                <div class="formula">
+                    <span class="var">\(\vec{H}_k (\vec{x}) \)</span>
+                    <span class="op">=</span>
+                    <span class="var">\(\vec{H}_k \: {\color{#F08FB0}{ ( }} \vec{x} \; {\color{#F08FB0}{ + }} \; \vec{a} {\color{#F08FB0}{ ) }}\)</span>
+                </div>
+            </div>
+
+            <div class="section-head">
+                <div class="section-head-number"></div>
+                <h2>Periodic Structure</h2>
+            </div>
+
+            <div class="formula-card">
+                <div class="formula-number">✦ </div>
+                <div class="formula">
+                    <span class="var">\(\varepsilon {\color{#F08FB0}{ ( }} z {\color{#F08FB0}{ ) }} \)</span>
+                    <span class="op">=</span>
+                    <span class="var">\(\varepsilon \: {\color{#F08FB0}{ ( }} z \; {\color{#F08FB0}{ + }} \; \Lambda {\color{#F08FB0}{ ) }}\)</span>
+                </div>
+            </div>
+
+            <div class="formula-card">
+                <div class="formula-number">✦ </div>
+                <div class="formula">
+                    <span class="var">\(n {\color{#F08FB0}{ ( }} z {\color{#F08FB0}{ ) }} \)</span>
+                    <span class="op">=</span>
+                    <span class="var">\(n \: {\color{#F08FB0}{ ( }} z \; {\color{#F08FB0}{ + }} \; \Lambda {\color{#F08FB0}{ ) }}\)</span>
+                </div>
+            </div>
+
+            <div class="where-block blue">
+                <div class="where-label">where</div>
+                <div class="where-term">
+                    <span class="term-sym">\(\Lambda\)</span>
+                    <span class="term-sep">-</span>
+                    <span class="term-desc">permittivity</span>
+                </div>
+            </div>  
+
+            <div class="section-head">
+				<div class="section-head-number"></div>
+				<h2>Dispersion Relation</h2>
+			</div>
+
+            <div class="formula-card">
+                <div class="formula-number">✦ </div>
+                <div class="formula">
+                    <span class="var">\(\omega\)</span>
+                    <span class="op">=</span>
+                    <span class="var">\(\omega \: {\color{#F08FB0}{ ( }} \vec{k} {\color{#F08FB0}{ ) }}\)</span>
+                </div>
+            </div>
+
+            <div class="where-block blue">
+                <div class="where-label">where</div>
+                <div class="where-term">
+                    <span class="term-sym">\(k\)</span>
+                    <span class="term-sep">-</span>
+                    <span class="term-desc">complex parameter</span>
+                </div>
+            </div>  
+
+            <div class="intro-card">
+                <p>The wave vector <span class="var">\(\vec{k}\)</span> determines the wave's behavior in the medium:</p>
+                <ul>
+                    <li class="no-num">If \(\vec{k}\) is <strong>real</strong>, the wave propagates with only a <strong>phase change</strong>.</li>
+                    <li class="no-num">If \(\vec{k}\) is <strong>imaginary</strong>, the wave amplitude <strong>decays exponentially</strong>.</li>
+                    <li class="no-num">The range of frequencies \(\omega\) for which \(\vec{k}\) is imaginary is called the <mark>Photonic Band Gap</mark>.</li>
+                </ul>    
+            </div>
+
+            <div class="section-head">
+                <div class="section-head-number"></div>
+                <h2>Diffraction Condition in Periodic Media</h2>
+            </div>
+            
+            <div class="intro-card">
+                Suppose \(\Lambda\) is spacing between planes. 
+                Path difference of rays reflected from two planes is \(2 \lambda \sin \theta\).
+            </div>
+
+            <div class="formula-card">
+                <div class="formula-number">✦ </div>
+                <div class="formula">
+                    <span class="var">\(2 \, \Lambda \, {\color{#F08FB0}{sin({\color{#6AAEE0}{\theta}})}}\)</span>
+                    <span class="op">=</span>
+                    <span class="var">\(m \, \lambda\)</span>
+                </div>
+            </div>
+
+            <div class="where-block blue">
+                <div class="where-label">where</div>
+                <div class="where-term">
+                    <span class="term-sym">\(2 \, \Lambda \, \sin(\theta)\)</span>
+                    <span class="term-sep">-</span>
+                    <span class="term-desc">physical path</span>
+                </div>
+            </div>  
+
+            <div class="formula-card">
+                <div class="formula-number">✦ </div>
+                <div class="formula">
+                    <span class="var">\(n \,2 \, \Lambda \, {\color{#F08FB0}{sin({\color{#6AAEE0}{\theta}})}}\)</span>
+                    <span class="op">=</span>
+                    <span class="var">\(m \, \lambda\)</span>
+                </div>
+            </div>
+
+            <div class="where-block blue">
+                <div class="where-label">where</div>
+                <div class="where-term">
+                    <span class="term-sym">\(n\)</span>
+                    <span class="term-sep">-</span>
+                    <span class="term-desc">average refractive index</span>
+                </div>
+                <div class="where-term">
+                    <span class="term-sym">\(n \, 2 \, \Lambda \, \sin(\theta)\)</span>
+                    <span class="term-sep">-</span>
+                    <span class="term-desc">optical path, that is in order of wavelength</span>
+                </div>
+            </div>  
+
+            <div class="formula-card">
+                <div class="formula-label">✦ Diffraction Condition</div>
+                <div class="formula-number">✦ </div>
+                <div class="formula">
+                    <span class="var">\(2 \, \Lambda \, {\color{#F08FB0}{sin({\color{#6AAEE0}{\theta}})}}\)</span>
+                    <span class="op">=</span>           
+                    <span class="frac">
+                        <span class="frac-num">
+                            <span class="var">\(m \, \lambda\)</span>
+                        </span>
+                        <span class="frac-den">
+                            <span class="var">\(n\)</span>
+                        </span>
+                    </span>
+                </div>
+            </div>
+                
+            <div class="section-head">
+				<div class="section-head-number"></div>
+				<h2>Applications</h2>
+			</div>
+
+            <ul>
+                <li>Photonc Crystal Fiber</li>
+                <li>Fiber Bragg Grating</li>
+                <li>Coupled Micro Ring Resonator</li>
+                <li>Quarter Wave Stack</li>
+            </ul>
+
 	        <script src="https://nano-library.github.io/dynamic-behavior-and-interactivity/topic.js"></script>
             <script src="https://nano-library.github.io/dynamic-behavior-and-interactivity/navigation.js"></script>
         </div>
