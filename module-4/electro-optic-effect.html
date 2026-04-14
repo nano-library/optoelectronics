@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Electro-opto Effect · Optoelectronics · Nano Library</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600;700&family=Nunito:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet"/>
+    <link rel="icon" type="image/x-icon" href="https://nano-library.github.io/web-styling/favicon.png">
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
+    <link rel="stylesheet" href="https://nano-library.github.io/web-styling/css/colors.css">
+    <link rel="stylesheet" href="https://nano-library.github.io/web-styling/css/topic.css">
+    <link rel="stylesheet" href="https://nano-library.github.io/web-styling/css/navigation.css">
+    <link rel="stylesheet" href="https://nano-library.github.io/web-styling/css/progress.css">
+    <link rel="stylesheet" href="https://nano-library.github.io/web-styling/css/divider.css">
+    <link rel="stylesheet" href="https://nano-library.github.io/web-styling/css/card.css">
+    <link rel="stylesheet" href="https://nano-library.github.io/web-styling/css/image.css">
+    <link rel="stylesheet" href="https://nano-library.github.io/web-styling/css/list.css">
+    <link rel="stylesheet" href="https://nano-library.github.io/web-styling/css/formula.css">
+    <link rel="stylesheet" href="https://nano-library.github.io/web-styling/css/table.css">
+</head>
+<body>
+    <a class="nav-button nav-prev">
+        <span class="button-icon"><</span>
+        <span class="button-label">prev</span>
+    </a>
+
+    <a class="nav-button nav-list">
+    <span class="button-label">contents</span>
+    </a>
+
+    <a class="nav-button nav-next">
+        <span class="button-icon">></span>
+        <span class="button-label">next</span>
+    </a>
+
+    <main data-topic="15" data-list="../index.html">
+
+        <div class="page-header">
+            <div class="topic-chip"></div>
+            <h1></h1>
+            <p class="page-meta"></p>
+            <div class="progress-bar-wrap">
+            <div class="progress-label">
+                <span class="topic-count">loading…</span>
+                <span class="pct-count"></span>
+            </div>
+            <div class="progress-track">
+                <div class="progress-fill"></div>
+            </div>
+            <div class="progress-label" style="margin-top:10px;">
+                <span class="chapter-count">loading…</span>
+                <span class="chapter-pct"></span>
+            </div>
+            <div class="progress-track">
+                <div class="progress-fill progress-fill-chapter"></div>
+            </div>
+            </div>
+        </div>
+
+		<div class="divider">
+			<span class="divider-line"></span>
+			<span class="divider-flower">✦</span>
+			<span class="divider-flower">❀</span>
+			<span class="divider-flower">✦</span>
+			<span class="divider-line"></span>
+		</div>
+
+		<div class="content-body">
+
+			<div class="intro-card">
+				✨ Electro-optic effect represents a change in the refractive index of the material that results from the application of a steady or low-frequency electric field.
+			</div>
+
+            <div class="intro-card">
+                When a dielectric medium is subjected to a low-frequency (or static) electric field, its refractive index tensor undergoes a subtle yet controlled distortion. 
+                This phenomenon, known as the linear electro-optic effect (Pockels effect), allows us to modulate the phase, frequency, or polarization of light using an electrical signal.
+            </div>
+
+            <div class="formula-card">
+                <div class="formula-number">✦ </div>
+                <div class="formula-label">✦ Total Optical Field</div>
+                <div class="formula">
+                    <span class="var">\(E(t)\)</span>
+                    <span class="op">\(=\)</span>
+                    <span class="var">\(E(0)\)</span>
+                    <span class="op">\(+\)</span>
+                    <span class="var">\(Re\{E(\omega) \; e^{j \, \omega \, t}\}\)</span>                   
+                </div>
+            </div>
+
+            <div class="where-block blue">
+                <div class="where-label">where</div>
+                <div class="where-term">
+                    <span class="term-sym">\(E(0)\)</span>
+                    <span class="term-sep">-</span>
+                    <span class="term-desc">steady component (\(\omega = 0\))</span>
+                </div>
+                <div class="where-term">
+                    <span class="term-sym">\(E(\omega) \; e^{j \omega t}\)</span>
+                    <span class="term-sep">-</span>
+                    <span class="term-desc">harmonic component at angular frequency  \(\omega\)</span>
+                </div>
+            </div>
+
+            <div class="section-head">
+				<div class="section-head-number"></div>
+				<h2>Non-linear Polarization and the Origin of Index Modulation</h2>
+			</div>
+
+            <div class="intro-card">
+                When an intense optical field propagates through a non-centrosymmetric crystal, the induced polarization \(P\) no longer depends linearly on the electric field. 
+                The leading non-linear contribution is quadratic in the field:
+            </div>
+
+            <div class="formula-card">
+                <div class="formula-number">✦ </div>
+                 <div class="formula-label">✦ Non-linear Polarization</div>
+                <div class="formula">
+                    <span class="var">\(P_{NL}\)</span>
+                    <span class="op"> = </spa>
+                    <span class="var">\(d \; E^2\)</span>                   
+                </div>
+            </div>
+
+            <div class="where-block blue">
+                <div class="where-label">where</div>
+                <div class="where-term">
+                    <span class="term-sym">\(d\)</span>
+                    <span class="term-sep">-</span>
+                    <span class="term-desc">non-linear coefficient (proportional to \(\chi^{(2)}\))</span>
+                </div>
+                <div class="where-term">
+                    <span class="term-sym">\(E\)</span>
+                    <span class="term-sep">-</span>
+                    <span class="term-desc">total applied field</span>
+                </div>
+            </div>
+
+            <div class="intro-card">
+                Substituting the decomposed field \(E(t)\) into the quadratic expression yields a spectrum of frequency components. 
+                After expanding and collecting terms, we obtain:
+            </div>
+
+            <div class="formula-card">
+                <div class="formula-number">✦ </div>
+                <div class="formula-label"> </div>
+                <div class="formula">
+                    <span class="var">\(P_{NL} (t)\)</span>
+                    <span class="op"> = </span>
+                    <span class="var">\(P_{NL} (0)\)</span>
+                    <span class="op"> + </span>
+                    <span class="var">\(Re\{ P_{NL}(\omega)\; e^{j \, \omega \, t}\} \)</span>   
+                    <span class="op"> + </span>
+                    <span class="var">\(Re \{ P_{NL} (2 \, \omega) \; e^{j \, 2 \, \omega \, t} \}\)</span>                  
+                </div>
+            </div>
+
+             <div class="where-block blue">
+                <div class="where-label">where</div>
+                <div class="where-term">
+                    <span class="term-sym">\(P_{NL}(0)\)</span>
+                    <span class="term-sep">=</span>
+                    <span class="term-desc">\(d [2 E^2(0) + |E(\omega)|^2] \)</span>
+                </div>
+                <div class="where-term">
+                    <span class="term-sym">\(P_{NL}(\omega)\)</span>
+                    <span class="term-sep">=</span>
+                    <span class="term-desc">\(4d E(0) E(\omega)\)</span>
+                </div>
+                <div class="where-term">
+                    <span class="term-sym">\(P_{NL}(2 \omega)\)</span>
+                    <span class="term-sep">=</span>
+                    <span class="term-desc">\( d E^2(\omega)\)</span>
+                </div>
+            </div>
+
+            <div class="intro-card"> 
+                When the optical field is very small, \(|E(\omega)|^2 \ll |E(0)|^2\), the term \(P_{NL}(2\omega)\) becomes negligible. 
+                This is precisely the condition for the <strong>linear electro-optic effect (Pockels effect)</strong>, 
+                the optical field is weak enough that it does not significantly deplete itself, 
+                yet it experiences a refractive index change proportional to the applied DC field \(E(0)\). 
+            </div>
+
+            <div class="intro-card">
+                Under this approximation, the dominant dynamic term is:
+            </div>
+
+            <div class="formula-card">
+                <div class="formula-number">✦ </div>
+                <div class="formula-label">✦ Electro-Optic Polarization</div>
+                <div class="formula">
+                    <span class="var">\(P_{NL}(\omega)\)</span>
+                    <span class="op"> = </span>
+                    <span class="var">\(4d \; E(0) \; E(\omega)\)</span>                 
+                </div>
+            </div>
+
+            <div class="intro-card">
+                This expression gives a linear proportionality between the non-linear polarization at frequency \(\omega\) and the optical field \(E(\omega)\) itself:
+            </div>
+
+            <div class="formula-card">
+                <div class="formula-number">✦ </div>
+                <div class="formula-label"> </div>
+                <div class="formula">
+                    <span class="var">\(P_{NL}(\omega)\)</span>
+                    <span class="op">\(\propto\)</span>
+                    <span class="var">\(E(\omega)\)</span>                 
+                </div>
+            </div>
+
+            <div class="intro-card">
+                Writing the total polarization at frequency \(\omega\) as \(P(\omega) = \varepsilon_0 \, \chi \, E(\omega)+P_{NL}(\omega)\), 
+                we identify an induced change \(\Delta \chi\) such that:
+            </div>
+
+            <div class="formula-card">
+                <div class="formula-number">✦ </div>
+                <div class="formula-label">✦ Induced Susceptibility Change</div>
+                <div class="formula">
+                    <span class="var">\(P_{NL}(\omega)\)</span>
+                    <span class="op"> = </span>
+                    <span class="var">\(\epsilon_0 \, \Delta \chi \, E(\omega)\)</span>                 
+                </div>
+            </div>
+
+            <div class="intro-card">
+                Equating this with \(4 \, d \, E(0) \, E(\omega)\) gives:
+            </div>
+
+            <div class="formula-card">
+                <div class="formula-number">✦ </div>
+                <div class="formula-label">✦ Linear Electro-Optic Coefficient</div>
+                <div class="formula">
+                    <span class="var">\({\color{#F08FB0}{\Delta}}\chi\)</span>
+                    <span class="op"> = </span>
+                    <span class="frac">
+                        <span class="frac-num">
+                            <span class="var">\(4 \; d\)</span>
+                        </span>
+                        <span class="frac-den">
+                            <span class="var">\(\epsilon_0\)</span>
+                        </span>
+                    </span>        
+                    <span class="var">\(E(0)\)</span>         
+                </div>
+            </div>
+
+            <div class="intro-card">
+                As \(\Delta \chi\) increases linearly with the applied DC field \(E(0)\), 
+                the refractive index changes accordingly. 
+                This is the electro-optic effect: an electric field controls the optical properties of the medium in real time. 
+            </div>
+
+            <div class="section-head">
+				<div class="section-head-number"></div>
+				<h2>From Susceptibility to Refractive Index Change</h2>
+			</div>
+ 
+            <div class="intro-card">
+                The connection between a material's polarization and its optical properties is expressed through the refractive index. 
+                In a linear, isotropic medium, the relation is:
+            </div>
+
+            <div class="formula-card">
+                <div class="formula-number">✦ </div>
+                <div class="formula-label">✦ Refractive Index Relation</div>
+                <div class="formula">
+                    <span class="var">\(n^2\)</span>
+                    <span class="op">\(=\)</span>
+                    <span class="var">\(1\)</span>                 
+                    <span class="op">\(+\)</span>
+                    <span class="var">\(\chi\)</span>
+                </div>
+            </div>
+
+            <div class="intro-card">
+                However, when an external electric field \(E(0)\) is applied, the susceptibility changes by \(\Delta \chi\). 
+                This induces a corresponding change in the refractive index. To find the relationship, we differentiate both sides:
+            </div>
+
+            <div class="formula-card">
+                <div class="formula-number">✦ </div>
+                <div class="formula-label">✦ Index-Susceptibility Relation</div>
+                <div class="formula">
+                    <span class="var">\(2n \, {\color{#F08FB0}{\Delta}}n\)</span>
+                    <span class="op">\(=\)</span>
+                    <span class="var">\({\color{#F08FB0}{\Delta}}\chi\)</span>                 
+                </div>
+            </div>
+
+            <div class="intro-card">
+                Using the field-induced susceptibility change, which is given by Equation named Linear Electro-Optic Coefficient.
+            </div>
+
+            <div class="formula-card">
+                <div class="formula-number">✦ </div>
+                <div class="formula-label">✦  Field-Induced Refractive Index Change</div>
+                <div class="formula">
+                    <span class="var">\({\color{#F08FB0}{\Delta}}n\)</span>
+                    <span class="op"> = </span>
+                    <span class="frac">
+                        <span class="frac-num">
+                            <span class="var">\(2 \; d\)</span>
+                        </span>
+                        <span class="frac-den">
+                            <span class="var">\(n \; \varepsilon_0\)</span>
+                        </span>
+                    </span>     
+                    <span class="var">\(E(0)\)</span>                   
+                </div>
+            </div>
+                  
+            <div class="intro-card">
+                When an external electric field \(E(0)\) is applied to the crystal, the refractive index changes from \(n\) to \(n + \Delta n\). 
+                This means the non-linear nature of the medium creates a direct coupling between the applied DC field \(E(0)\) and the optical field \(E(\omega)\). 
+                The electric field <em>controls</em> the optical field.
+            </div>
+           
+            <div class="section-head">
+				<div class="section-head-number"></div>
+				<h2>Pockel's Effect</h2>
+			</div>
+
+            <div class="intro-card">
+                Named after Friedrich Carl Alwin Pockels, who first described the phenomenon in 1893, 
+                the Pockels effect (or linear electro-optic effect) refers to the linear dependence of the refractive index change on the applied electric field. 
+                Unlike the Kerr effect (quadratic in \(E\)), the Pockels effect is linear:
+            </div>
+
+            <div class="formula-card">
+                <div class="formula-number">✦ </div>
+                <div class="formula-label">✦ Index Change</div>
+                <div class="formula">
+                    <span class="var">\({\color{#F08FB0}{\Delta}}n\)</span>
+                    <span class="op">\(=\)</span>
+                    <span class="frac">
+                        <span class="frac-num">
+                            <span class="var">\(1\)</span>
+                        </span>
+                        <span class="frac-den">
+                            <span class="var">\(2\)</span>
+                        </span>
+                    </span>     
+                    <span class="var">\(n^3 \, \tau \, E(0)\)</span>                   
+                </div>
+            </div>
+
+            <div class="where-block blue">
+                <div class="where-label">where</div>
+                <div class="where-term">
+                    <span class="term-sym">\(\tau\)</span>
+                    <span class="term-sep">-</span>
+                    <span class="term-desc">Pockels coefficient (linear electro-optic coefficient) [m/V]</span>
+                </div>
+            </div>
+            
+            <div class="section-head">
+				<div class="section-head-number"></div>
+				<h2>Relationship Between \(d\) and the Pockels Coefficient \(\tau\)</h2>
+			</div>
+
+            <div class="intro-card">
+                We can now connect the microscopic non-linear coefficient \(d\) (from \(P_{NL}=d \, E^2\)) to the macroscopic Pockels coefficient \(\tau\).
+            </div>
+
+            <div class="formula-card">
+                <div class="formula-number">✦ </div>
+                <div class="formula-label">✦ Pockels Coefficient in Terms of \(d\)</div>
+                <div class="formula">
+                    <span class="var">\(\tau\)</span>
+                    <span class="op"> = </span>
+                    <span class="frac">
+                        <span class="frac-num">
+                            <span class="var">\(4 \, d\)</span>
+                        </span>
+                        <span class="frac-den">
+                            <span class="var">\(\varepsilon \, n^4\)</span>
+                        </span>
+                    </span>                  
+                </div>
+            </div>
+
+            <script src="https://nano-library.github.io/dynamic-behavior-and-interactivity/topic.js"></script>
+            <script src="https://nano-library.github.io/dynamic-behavior-and-interactivity/navigation.js"></script>
+        </div>
+  	</main>
+
+  	<footer>
+		tended with love &amp; good tea &nbsp;✦&nbsp; Nano library
+	</footer>
+</body>
+</html>
