@@ -70,6 +70,276 @@
 			<div class="intro-card">
 				✨ 
 			</div>
+
+            <div class="section-head">
+				<div class="section-head-number blue">13.10</div>
+				<h2>Two Wave Mixing</h2>
+			</div>
+
+            generally, Two wave mixing is not possible.
+
+            degenerate case
+            \[
+                \omega_2 = 2 \; \omega_1 = \omega_1 + \omega_1
+            \]
+            
+            <div class="section-head">
+				<div class="section-head-number"></div>
+				<h2>Three Wave Mixing</h2>
+			</div>
+
+            <div class="intro-card">
+			    Total incoming and outgoing will be three in total.
+			</div>
+
+            Consider
+
+            <div class="formula-card">
+                <div class="formula-number">✦ </div>
+                <div class="formula-label"> </div>
+                <div class="formula">
+                    <span class="var">e(t)</span>
+                    <span class="op"> = </span>
+                    <span class="var">\(Re \{ E(\omega_1) \; exp(j \, \omega_1 \, t) +  E(\omega_2) \; exp(j \, \omega_2 \, t) \}\)</span>                   
+                </div>
+            </div>
+
+            <div class="formula-card">
+                <div class="formula-number">✦ </div>
+                <div class="formula-label"> </div>
+                <div class="formula">
+                    <span class="var">\(P_{NL}\)</span>
+                    <span class="op"> = </span>
+                    <span class="var">\(2\; d \; \varepsilon^2\)</span>                   
+                </div>
+            </div>
+
+            <div class="intro-card">
+                There are 5 components, \(0, 2 \omega_1, 2 \omega_2, \omega_1 + \omega_2, \omega_1 - \omega_2\)
+            </div>
+
+            <div class="formula-card">
+                <div class="formula-number">✦ </div>
+                <div class="formula-label"> </div>
+                <div class="formula">
+                    <span class="var">\(P_{NL} (0)\)</span>
+                    <span class="op"> = </span>
+                    <span class="var">\(d \; [\left|E(\omega_1)\right|^2\)</span>
+                    <span class="op"> + </span>
+                    <span class="var">\(\left|E(\omega_2)\right|^2]\)</span>                   
+                </div>
+            </div>
+
+            <div class="formula-card">
+                <div class="formula-number">✦ </div>
+                <div class="formula-label"> </div>
+                <div class="formula">
+                    <span class="var">\(P_{NL} (2\omega_1)\)</span>
+                    <span class="op"> = </span>
+                    <span class="var">\(d \; E(\omega_1) \; E(\omega_1)\)</span>            
+                </div>
+            </div>
+
+            <div class="formula-card">
+                <div class="formula-number">✦ </div>
+                <div class="formula-label"> </div>
+                <div class="formula">
+                    <span class="var">\(P_{NL} (2\omega_2)\)</span>
+                    <span class="op"> = </span>
+                    <span class="var">\(d \; E(\omega_2) \; E(\omega_2)\)</span>            
+                </div>
+            </div>
+            
+            <div class="formula-card">
+                <div class="formula-number">✦ </div>
+                <div class="formula-label"> </div>
+                <div class="formula">
+                    <span class="var">\(P_{NL} (\omega_+)\)</span>
+                    <span class="op"> = </span>
+                    <span class="var">\(2 \; d \; E(\omega_1) \; E(\omega_2)\)</span>            
+                </div>
+            </div>
+
+            <div class="formula-card">
+                <div class="formula-number">✦ </div>
+                <div class="formula-label"> </div>
+                <div class="formula">
+                    <span class="var">\(P_{NL} (\omega_-)\)</span>
+                    <span class="op"> = </span>
+                    <span class="var">\(2 \; d \; E(\omega_1) \; E^{*}(\omega_2)\)</span>            
+                </div>
+            </div>
+
+            <div class="intro-card">
+                These have same probability but we can use phase matching, up conversion, \(\omega_1 + \omega_2\), down conversion, \(\omega_1 - \omega_2\).
+            </div>
+
+            <div class="section-head">
+				<div class="section-head-number"></div>
+				<h2>Some Frequency Generation (SFG)</h2>
+			</div>
+            
+            <div class="section-head">
+				<div class="section-head-number"></div>
+				<h2>Frequency Matching and Phase Matching</h2>
+			</div> 
+
+            If a wave is electic field with function of omega
+            \[
+                E(\omega_1) = A_1 \; exp(- j \; \overrightarrow{k_1} \; \overrightarrow{r})
+            \]
+
+            \[
+                E(\omega_2) = A_1 \; exp(- j \; \overrightarrow{k_2} \; \overrightarrow{r})
+            \]
+
+            \(exp(-j k r)\) is spatial part
+
+            \[
+                P_{NL} (\omega_3) = 2 \; d \; E(\omega_1) \; E(\omega_2) 
+                = 2 \; d \; A_1 \; A_2 \; exp(- j \; \overrightarrow{k_3} \; \overrightarrow{r})
+            \]
+
+            Frequency matching condition
+            \[
+                \omega_1 + \omega_2 = \omega_3
+            \]
+
+            Phase matching condition
+            \[
+                \overrightarrow{k_1} + \overrightarrow{k_2} = \overrightarrow{k_3}
+            \]
+
+            <div class="intro-card">
+                Medium acts as a light source of \(\omega_3 = \omega_1 + \omega_2\) with complex amplitude proportional to \(exp(- j \; \overrightarrow{k_3} \; \overrightarrow{r})\), where (\(\overrightarrow{k_3} = \overrightarrow{k_1} + \overrightarrow{k_2}\))
+            </div>
+
+            <div class="intro-card">
+                Argument of complex wave function is (\(\omega t - \overrightarrow{k} \cdot \overrightarrow{r}\)).
+            </div>
+
+            <div class="intro-card">
+                (\(\omega_1 + \omega_2 = \omega_3\)) ensures both temporal and spatial phase matching.
+                physical meaning is to sustain mutual interaction over extended duration of time and region of space.
+            </div>
+
+            <div class="section-head">
+				<div class="section-head-number"></div>
+				<h2>Three Wave Mixing Modulities, Parameteric interaction process</h2>
+			</div> 
+
+            Phase matching
+            \[
+                \omega_3 = \omega_1 + \omega_2
+            \]
+
+            once omega3 is generated, it interacts with omega1 or omega2,
+            then due to this interaction omega2 or omega1 is generated while maintaining phase matching.
+
+            \[
+                \omega_2 = \omega_3 - \omega_2
+            \]
+
+            omega 3 and omega 2 generates omega1
+
+            <div class="section-head">
+				<div class="section-head-number"></div>
+				<h2>Optical Frequency Conversion</h2>
+			</div>
+
+            <div class="section-head">
+				<div class="section-head-number"></div>
+				<h2>Up conversion</h2>
+			</div>
+            \[
+                \omega_3 = \omega_1 + \omega_2
+            \]
+
+            <div class="intro-card">
+                SHG is a degenerate special case of SFG. If \(\omega_1 = \omega_2 = \omega\), then \(\omega_3 = 2 \; \omega\)
+            </div>
+
+            <div class="section-head">
+				<div class="section-head-number"></div>
+				<h2>Down conversion</h2>
+			</div>
+            
+            \[
+                \omega_2 = \omega_3 - \omega_1
+            \]
+
+            <div class="section-head">
+				<div class="section-head-number"></div>
+				<h2>Applications</h2>
+			</div>
+           <ul>
+                <li>to generate <mark>coherent light</mark> at wavelength where no adequete lasers are available.</li>
+                <li>optical mixers in optical communication system.</li>
+           </ul>
+                
+            <div class="section-head">
+				<div class="section-head-number"></div>
+				<h2>Optical Parameteric Amplifiers (OPA)</h2>
+			</div>
+
+            <div class="intro-card">
+                When Wave 1 interacts with wave 3, wave 1 is enchanced, wave 2 is created. 
+                Pump is wave 3, signal is wave 1. wave 2 is idler.
+                This device operates as a <mark>coherent amplifier</mark> at frequency \(\omega_1\).
+                Gain depends on power of pump wave.
+            </div>
+
+            <div class="section-head">
+				<div class="section-head-number"></div>
+				<h2>Applications</h2>
+			</div>
+
+            <ul>
+                <li>amplifing the signal</li>
+                <li>helps in detecting small signals by amplifying them.</li>
+            </ul>
+
+            <div class="section-head">
+				<div class="section-head-number"></div>
+				<h2>Optical Parameteric Oscillator (OPO)</h2>
+			</div>
+
+            <div class="intro-card">
+                Optical Parametric Amplifier + Proper Feedback is OPO.
+                Only pump wave is supplied.
+            </div>
+
+            <div class="section-head">
+				<div class="section-head-number"></div>
+				<h2>Applications</h2>
+			</div>
+
+            <ul>
+                <li>Used for generation of coherent light.</li>
+                <li>Mode locked pulse trains over a continuous range of frequency.</li>
+                <li>If there is no tunable laser, we can use OPOs.   </li>
+            </ul>
+
+            <div class="section-head">
+				<div class="section-head-number"></div>
+				<h2>Spontaneous Parametric Down Conversion (SPDC)</h2>
+			</div>
+
+                   
+            Only input - pump that is wave 3.
+
+            Down conversion to lower frequency wave 1 and wave 2.
+
+            \[
+                \omega_1 + \omega_2 = \omega_3 \\
+                k_1 + k_2 = k_3
+            \]
+
+            leads to multiple solutions.
+
+            Each forming a pair of wave 1 and wave 2, with specific frequency (\(\omega\)) and direction (k).
+
+
          
             <script src="https://nano-library.github.io/dynamic-behavior-and-interactivity/topic.js"></script>
             <script src="https://nano-library.github.io/dynamic-behavior-and-interactivity/navigation.js"></script>

@@ -71,6 +71,301 @@
 				✨ 
 			</div>
 
+            Third order Non-linear effect
+            \[
+                E(t) = Re\{E(\omega_1) exp(j \omega_1 t)\} + Re\{E(\omega_2) exp(j \omega_2 t)\} + Re\{E(\omega_3) exp(j \omega_3)\}
+            \]
+
+
+            \[
+                E(t) = \sum_{q = \pm 1, \pm 2, \pm 3} \frac{1}{2} E(\omega_q) exp(i \omega_q t)
+            \]
+
+            where \(w_{-q} = - \omega_q\), \(E(-\omega_q) = E^* (\omega_q)\)
+            
+            \[
+                P_{NL} = 4 \chi^{(0)} \epsilon^3
+            \]
+
+            From (1) and (2)
+            \[
+                P_{NL} = \frac{1}{8} \chi^{(3)} \sum E(\omega_q) E(\omega_1) E(\omega_2) exp(j (\omega_1 + \omega_2 + \omega_3) t)
+            \]
+
+            \[
+                \omega_1, 3\omega_1, 2 \omega_2, \ldots, \; \text{etc}
+            \]
+
+            Frequency Matching Condition
+            \[
+                \omega_1 + \omega_2 = \omega_3 + \omega_4
+            \]
+
+            Phase Mathcing Condition
+            \[
+                k_1 + k_2 = k_3 + k_4
+            \]
+
+            <div class="section-head">
+				<div class="section-head-number"></div>
+				<h2>Third Order Non-linear effect</h2>
+			</div>
+
+                Centro symmetric media
+
+                P will reverse as E is reversed.
+
+                \[
+                    P_{NL} = 4 \chi^{(3)} E^3
+                \]
+
+                Kerr Medium
+                Will respond to optical field by generating third harmonics, sum and differences of triplet of frequencies.
+
+            <div class="section-head">
+				<div class="section-head-number"></div>
+				<h2>Kerr effect</h2>
+			</div>
+
+            <div class="section-head">
+				<div class="section-head-number"></div>
+				<h2>optical-Kerr Effect</h2>
+			</div>
+            
+            \[
+                P_{NL} (\omega) = 3 \chi^{(3)} |E(\omega)|^2 E(\omega)
+            \]
+
+            \[
+                \epsilon_0 \Delta \chi = \frac{P_{NL}(\omega)}{E(\omega)} = 3 \chi^{(3)} |E(\omega)|^2 = 6 \chi^{(2)} \eta I
+            \]
+
+            As Intensity increases, \(\Delta \chi\) increases, refractive index changes 
+
+            \[
+                \Delta n = \frac{\Delta \chi}{}
+            \]
+
+            What is \(\chi\) as tensors?
+
+            \[
+                I = \frac{|I(\omega)|^2}{\eta}
+            \]
+
+            Curl Non-linear
+            related to being lens
+
+            \[
+                \Delta n = \frac{\Delta \chi}{2 \eta} = \frac{3 \eta \chi^{(3)} I}{\epsilon_0 n} = n_2 I
+            \]
+
+            \[
+                n_2 = \frac{3 \eta}{n^2 \epsilon_0} \chi^{(3)}
+            \]
+
+            \(n_2\) is NL RI coefficient.
+
+            Kerr-effect equation
+            \[
+                n(I) = n + n_2 I
+            \]
+
+            Self induced effect in which the phase velocity of wave depends on own intensity.
+
+            n2
+            <ul>
+                <li class="no-num">\(10^{-16}-10^{-19}\), glasses</li>
+                <li class="no-num">\(10^{-14}-10^{-7}\), doped glasses</li>
+                <li class="no-num">\(10^{-10}-10^{-8}\), organic materials</li>
+                <li class="no-num">\(10^{-10}-10^{-2}\), semi-conductors</li>
+            </ul>
+
+            n2 is sensitive to \(\lambda\) and also depends on Polarization
+
+
+            <div class="section-head">
+				<div class="section-head-number"></div>
+				<h2>Self phase modulation (SPM)</h2>
+			</div>
+
+            Phase shift measured by an optical beam of power \(P\) and cross section \(A\) travelling a distance \(L\) in the Medium
+            
+            \[
+                \phi = n(I) \cdot \left(\frac{2\pi}{\lambda}\right)L
+            \]
+
+            \[
+                \phi = \frac{2\pi}{\lambda} \left[ n + n_2 I \right]L
+            \]
+
+            \[
+                \phi = \frac{2\pi}{\lambda} \left[ n + n_2 \frac{P}{A} \right]L
+            \]
+           
+            \[
+                \Delta \phi = \frac{2 \pi n_2 L P}{\lambda A}
+            \]
+
+
+            \[
+                L = 1m, A = 10^{-2} mm^2, n_2 = 10^{-10} cm^2/W, P = 0.5, \Delta \phi = \pi, \lambda = ?
+            \]
+
+            \[
+                \lambda = \frac{ \Delta \phi A}{2 \pi n_2 L P}
+            \]
+
+            \[
+                \lambda = \frac{A}{2 n_2 L P}
+            \]
+
+            \[
+                \lambda = 1 \mu m
+            \]
+
+            <div class="section-head">
+				<div class="section-head-number"></div>
+				<h2>Self Focusing</h2>
+			</div>
+
+            Phase modulation can be converted to intensity modulation.
+
+            Weak Optical beam may be controlled by an intense optical beam.
+
+            Associated with self phase modulation, intensity beam transmitted through or shift of non-linear material.
+
+            refractive index change mimics the intensity pattern.
+
+            If beam has its highest intensity at the centre.
+
+            maximum change in refractive index is also at the centre.
+
+            Non-linear sheet then acts as a graded index medium.
+
+            imports to the wave a non uniform phase shift.
+
+            causing wave front curvature.
+
+            medium can act as a lens with power dependent focal length.
+
+            <div class="section-head">
+				<div class="section-head-number"></div>
+				<h2>Soliton</h2>
+			</div>
+
+            Wave front that propagates long distance without change.
+
+            <div class="section-head">
+				<div class="section-head-number"></div>
+				<h2>Spatial Soliton</h2>
+			</div>
+
+            Occurs in the time doain when group velocity dispersion is compensated by SPM.
+
+            if it is time, it is called temporal, if it is space, it is called spatial.
+
+            Intense optical beam travels through substantial thickness of non-linear medium.
+
+            Refractive index is altered non-uniformly.
+
+            Medium acts as a graded index wave guide, maximum at maxima.
+
+            beam can create its own wave guide.
+
+            If the intensity of the beam has same spatial distribution in the transverse plane as one of the modes of the wave guide, that the beam itself creates.
+            
+            beam propagates self consistently without changing its spatial distribution.
+
+            diffraction is compensated by self phase modulation (SPM).
+
+            self guided beam, that is called, spatial solitons.
+
+            Self guiding of light in optical kerr medium, 
+
+            Helmholtz equation 
+
+            \[
+                \Delta^2 + n^(I) k_0^2 E = 0
+            \]
+
+            \[
+                n(I) = n + n_2 I
+            \]
+
+            \[
+                k_0 = \frac{2 \pi}{\lambda} = \frac{\omega}{c}
+            \]
+
+            \[
+                I = \frac{|E|^2}{2 \eta}
+            \]
+
+            Input: 
+            \[
+                E = A exp(- j k z)
+            \]
+
+            \[
+                k = nk_0
+            \]
+
+
+            A is function of (x, z)
+
+            \[
+                \frac{\partial^2}{\partial z^2} \left[ A exp(-j k z) \right] \simeq (-2 j k \frac{\partial A}{\partial z})  - k^2 A exp(-j k z)
+            \]
+
+            \[
+                \frac{\partial^2}{\partial z^2} - 2jk \frac{\partial A}{\partial z} + k^2 \left[ n^2(I) - n^2\right] A = 0
+            \]
+
+            \[
+                (n^(I) - n^2) = \left[n(I) + n\right]\left[n(I) - n \right] = n_2 I (2n) = \frac{2n_2 n |A|^2}{2\eta} = \frac{n_2 n |A|^2}{\eta}
+            \]
+
+
+            non-linear schrodinger equation
+            \[
+                \frac{\partial^2 A}{\partial x^2} + \frac{n_2}{\eta_0}k^2|A|^2 A = 2j k \frac{\partial A}{\partial z}
+            \]
+
+            A(x, z=0), A(x, z=L)
+
+            
+             <div class="section-head">
+				<div class="section-head-number"></div>
+				<h2>Third Harmonic Generation</h2>
+			</div>
+
+            in monochromatic optical field
+
+            \[
+                P_{NL} =  4 \chi^{(3)} E^3
+                \tag{1}
+            \]
+            
+            \[
+                E(t) = Re \{E(\omega exp (j \omega t))\}
+                \tag{2}
+            \]
+
+            From (1) and (2),
+
+            \[
+                p_{NL}(\omega) = 3 \chi^{(3)} |E(\omega)|^2 E(\omega)
+                \tag{3}
+            \]
+
+            \[
+                P_{NL}(3\omega) = \chi^{(3)} E^{3} (\omega)
+                \tag{4}
+            \]
+
+            Equation (4), THG, the conversion efficiency is low.
+
+            THG is often achieved via SHG followed by SFG of fundamental and second harmonic wave.
+
             <script src="https://nano-library.github.io/dynamic-behavior-and-interactivity/topic.js"></script>
             <script src="https://nano-library.github.io/dynamic-behavior-and-interactivity/navigation.js"></script>
         </div>
