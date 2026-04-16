@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Polarization · Optoelectronics · Nano Library</title>
+    <title>Wave Propagation in Non-linear Medium · Optoelectronics · Nano Library</title>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600;700&family=Nunito:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet"/>
@@ -67,203 +67,101 @@
 
 		<div class="content-body">
 
-			<div class="intro-card">
-				✨ 
-			</div>
-
-            <div class="section-head">
-				<div class="section-head-number"></div>
-				<h2>Wave Propagation</h2>
-			</div>
-
             <div class="intro-card">
-				Propagation of light in non-linear meidum is understood by wave equation from maxwell's equations.
-			</div>
+                Wave equation from Maxwell's equations describes light propagation in non-linear media.
+            </div>
 
             <div class="formula-card">
-                <div class="formula-label"></div>
+                <div class="formula-label">✦ Non-linear wave equation</div>
                 <div class="formula-number">✦ </div>
                 <div class="formula">
-                    <span class="op">\(\vec{\nabla}^2\)</span>
-                    <span class="var">\(\mathbf{E}\)</span>
-                    <span class="op">-</span>
-                    <span class="var">\(\frac{1}{c_0^2}\)</span>
-                    <span class="op">-</span>
-                    <span class="var">\(\frac{\partial^2 \mathbf{E}}{\partial t^2}\)</span>
-                    <span class="op">=</span>
-                    <span class="var">\(\mu_0 \frac{\partial^2 \vec{P}}{\partial t^2}\)</span>
+                    <span class="var">\({\color{#F08FB0}{\vec{\nabla}^2}}E\)</span>
+                    <span class="op">\(-\)</span>
+                    <span class="var">\(\displaystyle\frac{1}{c_0^2}\,\frac{\partial^2 E}{\partial t^2}\)</span>
+                    <span class="op">\(=\)</span>
+                    <span class="var">\(\mu_0 \, \displaystyle\frac{\partial^2 \vec{P}}{\partial t^2}\)</span>
                 </div>
             </div>
 
             <div class="formula-card">
-                <div class="formula-label"></div>
+                <div class="formula-label">✦ Total polarization decomposition</div>
                 <div class="formula-number">✦ </div>
                 <div class="formula">
                     <span class="var">\(P\)</span>
-                    <span class="op">=</span>
+                    <span class="op">\(=\)</span>
                     <span class="var">\(\varepsilon_0\)</span>
-                    <span class="op">\(\times\)</span>
-                    <span class="var">\(\mathbf{E}\)</span>
-                    <span class="op">+</span>
+                    <span class="var">\(E\)</span>
+                    <span class="op">\(+\)</span>
                     <span class="var">\(P_{N^2}\)</span>
                 </div>
             </div>
 
-            \[
-                P_{N^2} = 2 d \mathbf{E}^2  + 4 \chi^{(3)}\mathbf{E}^3 \ldots
-            \]
-
-            \[
-                e = \frac{e_0}{n}
-            \]
-
-            \[
-                n^2 = 1 + \chi            
-            \]
-
-            \[
-                c_0 = \frac{1}{\sqrt{\varepsilon_0 \mu_0}}
-            \]
-
-            <div class="section-head">
-				<div class="section-head-number"></div>
-				<h2>Second Order Wave Propagation in non-linear medium</h2>
-			</div>
-
-            <p>Only second order is considered, other are considered as negligible</p>
-
-            \[
-                P_{\text{non-linear}} = 2 d E^2
-                \tag{1}
-            \]
-
-            <p>Second Harmonic Generation (SHG)</p>
-
-            <p>Light</p>
-            \[
-                E(t) = \mathrm{Re}\{ E(\omega) exp(i \omega t) \}
-            \]
-
-            \[
-                E(t) = \frac{1}{2}\left[ E(\omega) exp(i \omega t) + E^{*}(\omega) exp(- i \omega t)\right]
-                \tag{2}
-            \]
-
-            <p>Substitute 2 in 1</p>
-
-            \[
-                P_{\text{non-linear}} = P_{\text{non-linear}}(0) + \mathrm{Re}\left[ P_{\text{non-linear}}(2\omega) exp(i 2 \omega t) \right]
-            \]
-
-            \[
-                P_{\text{non-linear}} (0) = d E(\omega) E^{*}(\omega)
-            \]
-
-            \[
-                P_{\text{non-linear}} (2\omega) = d E^2(\omega)
-            \]
-
-            <p>\(2\omega\) is second Harmonic</p>
-
-            <p>Single frequency to double frequency in the function of \(2 \omega\)</p>
-
-            <p>Efficiency of SHG</p>
-
-            <div class="formula-card">
-                <div class="formula-label"></div>
-                <div class="formula-number">✦ </div>
-                <div class="formula">
-                    <span class="var">\(\eta\)</span>
-                    <span class="op">=</span>
-                    <span class="frac">
-                        <span class="frac-num"><span class="var">\(I(2\omega)\)</span></span>
-                        <span class="frac-den"><span class="var">\(I(\omega)\)</span></span>
-                    </span>
-                </div>
+            <div class="intro-card">
+                Non-linear polarization includes quadratic and cubic susceptibility terms for wave mixing and self-action.
             </div>
 
             <div class="formula-card">
-                <div class="formula-label"></div>
+                <div class="formula-label">✦ non-linear Polarization Expansion</div>
                 <div class="formula-number">✦ </div>
                 <div class="formula">
-                    <span class="var">\(\eta_{SHG}\)</span>
-                    <span class="op">=</span>
-                    <span class="var">\(c^2\)</span>
-                    <span class="frac">
-                        <span class="frac-num"><span class="var">\(L^2\)</span></span>
-                        <span class="frac-den"><span class="var">\(A\)</span></span>
-                    </span>
-                    <span class="var">\(P\)</span>
-                </div>
-            </div>
-
-            <div class="where-block blue">
-                <div class="where-label">where</div>
-                <div class="where-term">
-                    <span class="term-sym">\(P\)</span>
-                    <span class="term-sep">-</span>
-                    <span class="term-desc">incident power</span>
-                </div>
-                <div class="where-term">
-                    <span class="term-sym">\(A\)</span>
-                    <span class="term-sep">-</span>
-                    <span class="term-desc">cross sectional area of interaction volume</span>
-                </div>
-                <div class="where-term">
-                    <span class="term-sym">L</span>
-                    <span class="term-sep">-</span>
-                    <span class="term-desc">interaction length</span>
-                </div>
-                <div class="where-term">
-                    <span class="term-sym">\(c\)</span>
-                    <span class="term-sep">-</span>
-                    <span class="term-desc">speed of light</span>
+                    <span class="var">\(P_{N^2}\)</span>
+                    <span class="op">\(=\)</span>
+                    <span class="var">\(2 d \mathbf{E}^2\)</span>
+                    <span class="op">\(+\)</span>
+                    <span class="var">\(4 \chi^{(3)}\mathbf{E}^3\)</span>
+                    <span class="op">\(+ \ldots\)</span>
                 </div>
             </div>
 
             <div class="intro-card">
-                We need high intensity to increase incident power, in pulsed laser, there are high intensities.
+                Phase velocity in a medium is vacuum speed divided by refractive index.
             </div>
 
-            <div class="section-head">
-				<div class="section-head-number"></div>
-				<h2>Wave Guide Structure</h2>
-			</div>
+            <div class="formula-card">
+                <div class="formula-label">✦ Phase velocity in medium</div>
+                <div class="formula-number">✦ </div>
+                <div class="formula">
+                    <span class="var">\(c\)</span>
+                    <span class="op">\(=\)</span>
+                    <span class="frac">
+                        <span class="frac-num"><span class="var">\(c_0\)</span></span>
+                        <span class="frac-den"><span class="var">\(n\)</span></span>
+                    </span>
+                </div>
+            </div>
 
-            <ul>
-                <li>Advantages</li>
-                <ul>
-                    <li class="no-num">decrease in A</li>
-                    <li class="no-num">increase in L</li>
-                </ul>
-                <li>Planar waveguide, channel wave guide</li>
-                <li>Optical fiber</li>
-            </ul>
+            <div class="intro-card">
+                Refractive index squared relates linearly to susceptibility.
+            </div>
 
-            <div class="section-head">
-				<div class="section-head-number blue">13.10</div>
-				<h2>Silica Glass Fiber</h2>
-			</div>
+            <div class="formula-card">
+                <div class="formula-label">✦ Refractive index from susceptibility</div>
+                <div class="formula-number">✦ </div>
+                <div class="formula">
+                    <span class="var">\(n^2\)</span>
+                    <span class="op">\(=\)</span>
+                    <span class="var">\(1\)</span>
+                    <span class="op">\(+\)</span>
+                    <span class="var">\(\chi\)</span>
+                </div>
+            </div>
 
-            <div class="section-head">
-				<div class="section-head-number blue">13.10</div>
-				<h2>Application of SHG</h2>
-			</div>
+            <div class="intro-card">
+                Vacuum light speed from permittivity and permeability of free space.
+            </div>
 
-            <div class="section-head">
-				<div class="section-head-number blue">13.10</div>
-				<h2>Electro-optic effect</h2>
-			</div>
-            
-            This is generated due to applied electric field.
-
-            \[
-                P_{NL} (t) = P_{NL}(0) + Re{P_{NL}(2\omega) exp(j 2 \omega t)}
-            \]
-
-            <p>\( P_{NL}(0)\), is steady, non time varying, creates a DC potential difference, across the plates of capacitors within which NL material is placed.</p>
-
-            <p>An optical pulse of several Megawatt peak power, voltage of several hundred micro-voltage. which is useful for some applications.</p>
+            <div class="formula-card">
+                <div class="formula-label">✦ Vacuum speed of light</div>
+                <div class="formula-number">✦ </div>
+                <div class="formula">
+                    <span class="var">\(c_0\)</span>
+                    <span class="op">\(=\)</span>
+                    <span class="frac">
+                        <span class="frac-num"><span class="var">\(1\)</span></span>
+                        <span class="frac-den"><span class="var">\(\sqrt{\varepsilon_0 \mu_0}\)</span></span>
+                    </span>
+                </div>
+            </div>
 
             <script src="https://nano-library.github.io/dynamic-behavior-and-interactivity/topic.js"></script>
             <script src="https://nano-library.github.io/dynamic-behavior-and-interactivity/navigation.js"></script>

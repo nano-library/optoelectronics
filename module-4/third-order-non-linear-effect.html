@@ -68,111 +68,306 @@
 		<div class="content-body">
 
 			<div class="intro-card">
-				✨ 
-			</div>
+                ✨ Third order non‑linear effects arise when the polarisation of a material depends on the third power of the applied electric field.
+            </div>
 
-            Third order Non-linear effect
-            \[
-                E(t) = Re\{E(\omega_1) exp(j \omega_1 t)\} + Re\{E(\omega_2) exp(j \omega_2 t)\} + Re\{E(\omega_3) exp(j \omega_3)\}
-            \]
+            <div class="intro-card">
+                Consider an electric field composed of three distinct frequency components:
+            </div>
 
+            <div class="formula-card">
+                <div class="formula-label"></div>
+                <div class="formula-number">✦</div>
+                <div class="formula">
+                    <span class="var">\(E(t)\)</span>
+                    <span class="op">\(=\)</span>
+                    <span class="var">\(\Re\{E(\omega_1) \exp(j \omega_1 t)\}\)</span>
+                    <span class="op">\(+\)</span>
+                    <span class="var">\(\Re\{E(\omega_2) \exp(j \omega_2 t)\}\)</span>
+                    <span class="op">\(+\)</span>
+                    <span class="var">\(\Re\{E(\omega_3) \exp(j \omega_3 t)\}\)</span>
+                </div>
+            </div>
 
-            \[
-                E(t) = \sum_{q = \pm 1, \pm 2, \pm 3} \frac{1}{2} E(\omega_q) exp(i \omega_q t)
-            \]
+            <div class="intro-card">
+                This can be written more compactly using positive and negative frequency indices:
+            </div>
 
-            where \(w_{-q} = - \omega_q\), \(E(-\omega_q) = E^* (\omega_q)\)
+            <div class="formula-card">
+                <div class="formula-label"></div>
+                <div class="formula-number">✦</div>
+                <div class="formula">
+                    <span class="var">\(E(t)\)</span>
+                    <span class="op">\(=\)</span>
+                    <span class="var">\(\displaystyle\sum_{q = \pm 1, \pm 2, \pm 3} \frac{1}{2} E(\omega_q) \exp(i \omega_q t)\)</span>
+                </div>
+            </div>
+
+            <div class="intro-card">
+                where \(\omega_{-q} = -\omega_q\) and \(E(-\omega_q) = E^*(\omega_q)\).
+            </div>
+
+            <div class="intro-card">
+                The non‑linear polarisation for a third‑order process is often written in a simplified form as:
+            </div>
+
+            <div class="formula-card">
+                <div class="formula-label"></div>
+                <div class="formula-number">✦</div>
+                <div class="formula">
+                    <span class="var">\(P_{NL}\)</span>
+                    <span class="op">\(=\)</span>
+                    <span class="var">\(4 \chi^{(0)} \epsilon^3\)</span>
+                </div>
+            </div>
+
+            <div class="intro-card">
+                Substituting the full field expression into the third‑order polarisation yields:
+            </div>
+
+            <div class="formula-card">
+                <div class="formula-label"></div>
+                <div class="formula-number">✦</div>
+                <div class="formula">
+                    <span class="var">\(P_{NL}\)</span>
+                    <span class="op">\(=\)</span>
+                    <span class="var">\(\frac{1}{8} \chi^{(3)} \sum E(\omega_q) E(\omega_1) E(\omega_2) \exp\bigl(j (\omega_1 + \omega_2 + \omega_3) t\bigr)\)</span>
+                </div>
+            </div>
+
+            <div class="intro-card">
+                The summation runs over all combinations of the input frequencies, generating new frequencies such as:
+                \(\omega_1,\; 3\omega_1,\; 2\omega_2,\; \dots\) etc.
+            </div>
+
+            <div class="intro-card">
+                For an efficient energy transfer between waves, two conditions must be satisfied simultaneously:
+            </div>
+
+            <div class="intro-card">
+                <strong>Frequency matching condition</strong>
+            </div>
+
+            <div class="formula-card">
+                <div class="formula-label"></div>
+                <div class="formula-number">✦</div>
+                <div class="formula">
+                    <span class="var">\(\omega_1\)</span>
+                    <span class="op">\(+\)</span>
+                    <span class="var">\(\omega_2\)</span>
+                    <span class="op">\(=\)</span>
+                    <span class="var">\(\omega_3\)</span>
+                    <span class="op">\(+\)</span>
+                    <span class="var">\(\omega_4\)</span>
+                </div>
+            </div>
+
+            <div class="intro-card">
+                <strong>Phase matching condition</strong>
+            </div>
+
+            <div class="formula-card">
+                <div class="formula-label"></div>
+                <div class="formula-number">✦</div>
+                <div class="formula">
+                    <span class="var">\(k_1\)</span>
+                    <span class="op">\(+\)</span>
+                    <span class="var">\(k_2\)</span>
+                    <span class="op">\(=\)</span>
+                    <span class="var">\(k_3\)</span>
+                    <span class="op">\(+\)</span>
+                    <span class="var">\(k_4\)</span>
+                </div>
+            </div>
+
+            <div class="intro-card">
+                These conditions ensure that the non-linear polarisation drives the generated waves constructively over the entire interaction length.
+            </div>
             
-            \[
-                P_{NL} = 4 \chi^{(0)} \epsilon^3
-            \]
+            <div class="section-head">
+                <div class="section-head-number"></div>
+                <h2>Third-Order Nonlinear Coefficient (\(\chi^{(3)}\))</h2>
+            </div>
 
-            From (1) and (2)
-            \[
-                P_{NL} = \frac{1}{8} \chi^{(3)} \sum E(\omega_q) E(\omega_1) E(\omega_2) exp(j (\omega_1 + \omega_2 + \omega_3) t)
-            \]
+            <div class="intro-card">
+                The third-order susceptibility \(\chi^{(3)}\) is observed in:
+            </div>
 
-            \[
-                \omega_1, 3\omega_1, 2 \omega_2, \ldots, \; \text{etc}
-            \]
+            <ul>
+                <li>Glasses</li>
+                <li>Crystals</li>
+                <li>Semiconductors</li>
+                <li>Organic materials</li>
+            </ul>
 
-            Frequency Matching Condition
-            \[
-                \omega_1 + \omega_2 = \omega_3 + \omega_4
-            \]
+            <div class="intro-card">
+                Typical values:
+            </div>
 
-            Phase Mathcing Condition
-            \[
-                k_1 + k_2 = k_3 + k_4
-            \]
+            <div class="formula-card">
+                <div class="formula-label"></div>
+                <div class="formula-number">✦</div>
+                <div class="formula">
+                    <span class="var">\(d\)</span>
+                    <span class="op">\(\sim\)</span>
+                    <span class="var">\(10^{-34} \; \text{c/v}^2\)</span>
+                    <span class="op">\(\text{ to }\)</span>
+                    <span class="var">\(10^{-29} \; \text{c/v}^2\)</span>
+                </div>
+            </div>
+
+            <div class="intro-card">
+                Even though \(d\) is small, the third-order power dependence is higher than that of second-order effects, so it is not considered negligible.
+            </div>
 
             <div class="section-head">
-				<div class="section-head-number"></div>
-				<h2>Third Order Non-linear Effect</h2>
-			</div>
+                <div class="section-head-number"></div>
+                <h2>Third Order Non-linear Effect</h2>
+            </div>
 
+            <div class="intro-card">
                 Centro symmetric media
+            </div>
 
-                P will reverse as E is reversed.
+            <div class="intro-card">
+                \(P\) will reverse as \(E\) is reversed.
+            </div>
 
-                \[
-                    P_{NL} = 4 \chi^{(3)} E^3
-                \]
-
-                Kerr Medium
-                Will respond to optical field by generating third harmonics, sum and differences of triplet of frequencies.
+            <div class="formula-card">
+                <div class="formula-label"></div>
+                <div class="formula-number">✦</div>
+                <div class="formula">
+                    <span class="var">\(P_{NL}\)</span>
+                    <span class="op">\(=\)</span>
+                    <span class="var">\(4 \chi^{(3)} E^3\)</span>
+                </div>
+            </div>
 
             <div class="section-head">
-				<div class="section-head-number"></div>
-				<h2>Kerr effect</h2>
-			</div>
+                <div class="section-head-number"></div>
+                <h2>Kerr Effect</h2>
+            </div>
+
+            <div class="intro-card">
+                Self-induced effect in which the phase velocity of a wave depends on its own intensity.
+            </div>
+
+            <div class="intro-card">
+                Kerr medium responds to an optical field by generating third harmonics, as well as sum and difference frequencies from triplets of frequencies.
+            </div>
 
             <div class="section-head">
-				<div class="section-head-number"></div>
-				<h2>optical-Kerr Effect</h2>
-			</div>
-            
-            \[
-                P_{NL} (\omega) = 3 \chi^{(3)} |E(\omega)|^2 E(\omega)
-            \]
+                <div class="section-head-number"></div>
+                <h2>Optical Kerr Effect</h2>
+            </div>
 
-            \[
-                \epsilon_0 \Delta \chi = \frac{P_{NL}(\omega)}{E(\omega)} = 3 \chi^{(3)} |E(\omega)|^2 = 6 \chi^{(2)} \eta I
-            \]
+            <div class="formula-card">
+                <div class="formula-number">✦</div>
+                <div class="formula-label"></div>
+                <div class="formula">
+                    <span class="var">\(P_{NL} (\omega)\)</span>
+                    <span class="op">\(=\)</span>
+                    <span class="var">\(3 \chi^{(3)} |E(\omega)|^2 E(\omega)\)</span>
+                </div>
+            </div>
 
-            As Intensity increases, \(\Delta \chi\) increases, refractive index changes 
+            <div class="formula-card">
+                <div class="formula-number">✦</div>
+                <div class="formula-label"></div>
+                <div class="formula">
+                    <span class="var">\(\varepsilon_0 \Delta \chi\)</span>
+                    <span class="op">\(=\)</span>
+                    <span class="var">\(\frac{P_{NL}(\omega)}{E(\omega)}\)</span>
+                    <span class="op">\(=\)</span>
+                    <span class="var">\(3 \chi^{(3)} |E(\omega)|^2\)</span>
+                    <span class="op">\(=\)</span>
+                    <span class="var">\(6 \chi^{(2)} \eta I\)</span>
+                </div>
+            </div>
 
-            \[
-                \Delta n = \frac{\Delta \chi}{}
-            \]
+            <div class="intro-card">
+                As intensity increases, \(\Delta \chi\) increases, leading to a change in the refractive index.
+            </div>
 
-            What is \(\chi\) as tensors?
+            <div class="formula-card">
+                <div class="formula-number">✦</div>
+                <div class="formula-label"></div>
+                <div class="formula">
+                    <span class="var">\(\Delta n\)</span>
+                    <span class="op">\(=\)</span>
+                    <span class="var">\(\frac{\Delta \chi}{2n}\)</span>
+                </div>
+            </div>
 
-            \[
-                I = \frac{|I(\omega)|^2}{\eta}
-            \]
+            <div class="section-head">
+                <div class="section-head-number"></div>
+                <h2>What is \(\chi\) as a Tensor?</h2>
+            </div>
 
-            Curl Non-linear
-            related to being lens
+            <div class="intro-card">
+                \(\chi^{(3)}\) is a fourth-rank tensor \(\chi_{ijkl}^{(3)}\). It connects the polarization \(P_i^{(3)}\) to the product of electric fields \(E_j E_k E_l\). The tensor nature describes how the nonlinear response depends on the direction of fields and crystal orientation.
+            </div>
 
-            \[
-                \Delta n = \frac{\Delta \chi}{2 \eta} = \frac{3 \eta \chi^{(3)} I}{\epsilon_0 n} = n_2 I
-            \]
+            <div class="formula-card">
+                <div class="formula-number">✦</div>
+                <div class="formula-label"></div>
+                <div class="formula">
+                    <span class="var">\(I\)</span>
+                    <span class="op">\(=\)</span>
+                    <span class="var">\(\frac{|E(\omega)|^2}{\eta}\)</span>
+                </div>
+            </div>
 
-            \[
-                n_2 = \frac{3 \eta}{n^2 \epsilon_0} \chi^{(3)}
-            \]
+            <div class="intro-card">
+                The nonlinear Kerr effect can act as a lens (self-focusing or self-defocusing) due to intensity-dependent refractive index.
+            </div>
 
-            \(n_2\) is NL RI coefficient.
+            <div class="formula-card">
+                <div class="formula-number">✦</div>
+                <div class="formula-label"></div>
+                <div class="formula">
+                    <span class="var">\(\Delta n\)</span>
+                    <span class="op">\(=\)</span>
+                    <span class="var">\(\frac{\Delta \chi}{2n}\)</span>
+                    <span class="op">\(=\)</span>
+                    <span class="var">\(\frac{3 \chi^{(3)} I}{n^2 \varepsilon_0 c}\)</span>
+                    <span class="op">\(=\)</span>
+                    <span class="var">\(n_2 I\)</span>
+                </div>
+            </div>
 
-            Kerr-effect equation
-            \[
-                n(I) = n + n_2 I
-            \]
+            <div class="formula-card">
+                <div class="formula-number">✦</div>
+                <div class="formula-label"></div>
+                <div class="formula">
+                    <span class="var">\(n_2\)</span>
+                    <span class="op">\(=\)</span>
+                    <span class="var">\(\frac{3 \chi^{(3)}}{n^2 \varepsilon_0 c}\)</span>
+                </div>
+            </div>
 
-            Self induced effect in which the phase velocity of wave depends on own intensity.
+            <div class="intro-card">
+                \(n_2\) is the nonlinear refractive index coefficient. It describes how the refractive index changes with light intensity: \(n = n_0 + n_2 I\), where \(n_0\) is the linear refractive index. A positive \(n_2\) causes self-focusing (beam narrows), while a negative \(n_2\) causes self-defocusing (beam spreads).
+            </div>
 
-            n2
+            <div class="intro-card">
+                Kerr-effect equation:
+            </div>
+
+            <div class="formula-card">
+                <div class="formula-label"></div>
+                <div class="formula-number">✦</div>
+                <div class="formula">
+                    <span class="var">\(n(I)\)</span>
+                    <span class="op">\(=\)</span>
+                    <span class="var">\(n + n_2 I\)</span>
+                </div>
+            </div>
+
+            <div class="intro-card">
+                Typical values of \(n_2\):
+            </div>
+
             <ul>
                 <li class="no-num">\(10^{-16}-10^{-19}\), glasses</li>
                 <li class="no-num">\(10^{-14}-10^{-7}\), doped glasses</li>
@@ -180,192 +375,427 @@
                 <li class="no-num">\(10^{-10}-10^{-2}\), semi-conductors</li>
             </ul>
 
-            n2 is sensitive to \(\lambda\) and also depends on Polarization
-
-
-            <div class="section-head">
-				<div class="section-head-number"></div>
-				<h2>Self phase modulation (SPM)</h2>
-			</div>
-
-            Phase shift measured by an optical beam of power \(P\) and cross section \(A\) travelling a distance \(L\) in the Medium
+            <div class="intro-card">
+                \(n_2\) is sensitive to \(\lambda\) and also depends on polarization.
+            </div>
             
-            \[
-                \phi = n(I) \cdot \left(\frac{2\pi}{\lambda}\right)L
-            \]
+            <div class="section-head">
+                <div class="section-head-number"></div>
+                <h2>Self phase modulation (SPM)</h2>
+            </div>
 
-            \[
-                \phi = \frac{2\pi}{\lambda} \left[ n + n_2 I \right]L
-            \]
+            <div class="intro-card">
+                Phase shift measured by an optical beam of power \(P\) and cross section \(A\) travelling a distance \(L\) in the medium:
+            </div>
 
-            \[
-                \phi = \frac{2\pi}{\lambda} \left[ n + n_2 \frac{P}{A} \right]L
-            \]
+            <div class="formula-card">
+                <div class="formula-label"></div>
+                <div class="formula-number">✦</div>
+                <div class="formula">
+                    <span class="var">\(\phi\)</span>
+                    <span class="op">\(=\)</span>
+                    <span class="var">\(n(I) \cdot \left(\frac{2\pi}{\lambda}\right)L\)</span>
+                </div>
+            </div>
+
+            <div class="formula-card">
+                <div class="formula-label"></div>
+                <div class="formula-number">✦</div>
+                <div class="formula">
+                    <span class="var">\(\phi\)</span>
+                    <span class="op">\(=\)</span>
+                    <span class="var">\(\frac{2\pi}{\lambda} \left[ n + n_2 I \right]L\)</span>
+                </div>
+            </div>
+
+            <div class="formula-card">
+                <div class="formula-label"></div>
+                <div class="formula-number">✦</div>
+                <div class="formula">
+                    <span class="var">\(\phi\)</span>
+                    <span class="op">\(=\)</span>
+                    <span class="var">\(\frac{2\pi}{\lambda} \left[ n + n_2 \frac{P}{A} \right]L\)</span>
+                </div>
+            </div>
+
+            <div class="formula-card">
+                <div class="formula-label"></div>
+                <div class="formula-number">✦</div>
+                <div class="formula">
+                    <span class="var">\(\Delta \phi\)</span>
+                    <span class="op">\(=\)</span>
+                    <span class="var">\(\frac{2 \pi n_2 L P}{\lambda A}\)</span>
+                </div>
+            </div>
+
+            <div class="intro-card">
+                Given: \(L = 1\,\text{m}\), \(A = 10^{-2}\,\text{mm}^2\), \(n_2 = 10^{-10}\,\text{cm}^2/\text{W}\), \(P = 0.5\), \(\Delta \phi = \pi\), find \(\lambda\).
+            </div>
+
+            <div class="formula-card">
+                <div class="formula-label"></div>
+                <div class="formula-number">✦</div>
+                <div class="formula">
+                    <span class="var">\(\lambda\)</span>
+                    <span class="op">\(=\)</span>
+                    <span class="var">\(\frac{\Delta \phi A}{2 \pi n_2 L P}\)</span>
+                </div>
+            </div>
+
+            <div class="formula-card">
+                <div class="formula-label"></div>
+                <div class="formula-number">✦</div>
+                <div class="formula">
+                    <span class="var">\(\lambda\)</span>
+                    <span class="op">\(=\)</span>
+                    <span class="var">\(\frac{A}{2 n_2 L P}\)</span>
+                </div>
+            </div>
+
+            <div class="formula-card">
+                <div class="formula-label"></div>
+                <div class="formula-number">✦</div>
+                <div class="formula">
+                    <span class="var">\(\lambda\)</span>
+                    <span class="op">\(=\)</span>
+                    <span class="var">\(1\,\mu\text{m}\)</span>
+                </div>
+            </div>
+            
+            <div class="section-head">
+                <div class="section-head-number"></div>
+                <h2>Self Focusing</h2>
+            </div>
+
+            <div class="intro-card">
+                Phase modulation can be converted to intensity modulation.
+            </div>
+
+            <div class="intro-card">
+                A weak optical beam may be controlled by an intense optical beam.
+            </div>
+
+            <div class="intro-card">
+                Self focusing is associated with self-phase modulation, where an intense beam transmits through or induces a shift in the nonlinear material.
+            </div>
+
+            <div class="intro-card">
+                The refractive index change mimics the intensity pattern of the beam.
+            </div>
+
+            <div class="intro-card">
+                If the beam has its highest intensity at the centre, the maximum change in refractive index also occurs at the centre.
+            </div>
+
+            <div class="intro-card">
+                The nonlinear sheet then acts as a graded-index medium.
+            </div>
+
+            <div class="intro-card">
+                This imparts a non-uniform phase shift to the wave, causing wavefront curvature.
+            </div>
+
+            <div class="intro-card">
+                The medium can act as a lens with a power-dependent focal length.
+            </div>
            
-            \[
-                \Delta \phi = \frac{2 \pi n_2 L P}{\lambda A}
-            \]
+            
+            <div class="section-head">
+                <div class="section-head-number"></div>
+                <h2>Soliton</h2>
+            </div>
 
-
-            \[
-                L = 1m, A = 10^{-2} mm^2, n_2 = 10^{-10} cm^2/W, P = 0.5, \Delta \phi = \pi, \lambda = ?
-            \]
-
-            \[
-                \lambda = \frac{ \Delta \phi A}{2 \pi n_2 L P}
-            \]
-
-            \[
-                \lambda = \frac{A}{2 n_2 L P}
-            \]
-
-            \[
-                \lambda = 1 \mu m
-            \]
+            <div class="intro-card">
+                Wave front that propagates long distance without change.
+            </div>
 
             <div class="section-head">
-				<div class="section-head-number"></div>
-				<h2>Self Focusing</h2>
-			</div>
+                <div class="section-head-number"></div>
+                <h2>Spatial Soliton</h2>
+            </div>
 
-            Phase modulation can be converted to intensity modulation.
+            <div class="intro-card">
+                Occurs in the time domain when group velocity dispersion is compensated by SPM.
+            </div>
 
-            Weak Optical beam may be controlled by an intense optical beam.
+            <div class="intro-card">
+                If it is time, it is called temporal; if it is space, it is called spatial.
+            </div>
 
-            Associated with self phase modulation, intensity beam transmitted through or shift of non-linear material.
+            <div class="intro-card">
+                Intense optical beam travels through substantial thickness of non‑linear medium.
+            </div>
 
-            refractive index change mimics the intensity pattern.
+            <div class="intro-card">
+                Refractive index is altered non‑uniformly.
+            </div>
 
-            If beam has its highest intensity at the centre.
+            <div class="intro-card">
+                Medium acts as a graded index waveguide, maximum at maxima.
+            </div>
 
-            maximum change in refractive index is also at the centre.
+            <div class="intro-card">
+                Beam can create its own waveguide.
+            </div>
 
-            Non-linear sheet then acts as a graded index medium.
+            <div class="intro-card">
+                If the intensity of the beam has the same spatial distribution in the transverse plane as one of the modes of the waveguide that the beam itself creates, the beam propagates self‑consistently without changing its spatial distribution.
+            </div>
 
-            imports to the wave a non uniform phase shift.
+            <div class="intro-card">
+                Diffraction is compensated by self phase modulation (SPM).
+            </div>
 
-            causing wave front curvature.
+            <div class="intro-card">
+                Self-guided beam - that is called spatial soliton.
+            </div>
 
-            medium can act as a lens with power dependent focal length.
+            <div class="intro-card">
+                Self guiding of light in optical Kerr medium.
+            </div>
+
+            <div class="intro-card">
+                Helmholtz equation:
+            </div>
+
+            <div class="formula-card">
+                <div class="formula-label"></div>
+                <div class="formula-number">✦</div>
+                <div class="formula">
+                    <span class="var">\(\Delta^2 + n(I) k_0^2 E\)</span>
+                    <span class="op">\(=\)</span>
+                    <span class="var">\(0\)</span>
+                </div>
+            </div>
+
+            <div class="formula-card">
+                <div class="formula-label"></div>
+                <div class="formula-number">✦</div>
+                <div class="formula">
+                    <span class="var">\(n(I)\)</span>
+                    <span class="op">\(=\)</span>
+                    <span class="var">\(n + n_2 I\)</span>
+                </div>
+            </div>
+
+            <div class="formula-card">
+                <div class="formula-label"></div>
+                <div class="formula-number">✦</div>
+                <div class="formula">
+                    <span class="var">\(k_0\)</span>
+                    <span class="op">\(=\)</span>
+                    <span class="var">\(\frac{2 \pi}{\lambda}\)</span>
+                    <span class="op">\(=\)</span>
+                    <span class="var">\(\frac{\omega}{c}\)</span>
+                </div>
+            </div>
+
+            <div class="formula-card">
+                <div class="formula-label"></div>
+                <div class="formula-number">✦</div>
+                <div class="formula">
+                    <span class="var">\(I\)</span>
+                    <span class="op">\(=\)</span>
+                    <span class="var">\(\frac{|E|^2}{2 \eta}\)</span>
+                </div>
+            </div>
+
+            <div class="intro-card">
+                Input electric field propagating in the \(z\)-direction:
+            </div>
+
+            <div class="formula-card">
+                <div class="formula-number">✦</div>
+                <div class="formula-label"></div>
+                <div class="formula">
+                    <span class="var">\(E\)</span>
+                    <span class="op">\(=\)</span>
+                    <span class="var">\(A(x,z) \exp(-j k z)\)</span>
+                </div>
+            </div>
+
+            <div class="intro-card">
+                The wavevector \(k\) is related to the linear refractive index \(n\):
+            </div>
+
+            <div class="formula-card">
+                <div class="formula-number">✦</div>
+                <div class="formula-label"></div>
+                <div class="formula">
+                    <span class="var">\(k\)</span>
+                    <span class="op">\(=\)</span>
+                    <span class="var">\(n k_0\)</span>
+                </div>
+            </div>
+
+            <div class="intro-card">
+                Here, \(A\) is a function of both transverse coordinate \(x\) and propagation distance \(z\) (slowly varying envelope approximation).
+            </div>
+
+            <div class="intro-card">
+                Applying the paraxial approximation, the second derivative simplifies to:
+            </div>
+
+            <div class="formula-card">
+                <div class="formula-number">✦</div>
+                <div class="formula-label"></div>
+                <div class="formula">
+                    <span class="var">\(\frac{\partial^2}{\partial z^2} \left[ A \exp(-j k z) \right]\)</span>
+                    <span class="op">\(\simeq\)</span>
+                    <span class="var">\(\left(-2 j k \frac{\partial A}{\partial z} - k^2 A\right) \exp(-j k z)\)</span>
+                </div>
+            </div>
+
+            <div class="intro-card">
+                Substituting into the wave equation with intensity-dependent refractive index \(n(I)\) yields the nonlinear Schrödinger equation:
+            </div>
+
+            <div class="formula-card">
+                <div class="formula-number">✦</div>
+                <div class="formula-label"></div>
+                <div class="formula">
+                    <span class="var">\(\frac{\partial^2 A}{\partial x^2} - 2j k \frac{\partial A}{\partial z} + k^2 \left[ \frac{n^2(I)}{n^2} - 1 \right] A\)</span>
+                    <span class="op">\(=\)</span>
+                    <span class="var">\(0\)</span>
+                </div>
+            </div>
+
+            <div class="formula-card">
+                <div class="formula-label"></div>
+                <div class="formula-number">✦</div>
+                <div class="formula">
+                    <span class="var">\(\left(n^2(I) - n^2\right)\)</span>
+                    <span class="op">\(=\)</span>
+                    <span class="var">\(\left[n(I) + n\right]\left[n(I) - n\right]\)</span>
+                    <span class="op">\(=\)</span>
+                    <span class="var">\(n_2 I (2n)\)</span>
+                    <span class="op">\(=\)</span>
+                    <span class="var">\(\frac{2 n_2 n |A|^2}{2\eta}\)</span>
+                    <span class="op">\(=\)</span>
+                    <span class="var">\(\frac{n_2 n |A|^2}{\eta}\)</span>
+                </div>
+            </div>
+
+            <div class="intro-card">
+                Non-linear Schrödinger equation:
+            </div>
+
+            <div class="formula-card">
+                <div class="formula-label"></div>
+                <div class="formula-number">✦</div>
+                <div class="formula">
+                    <span class="var">\(\frac{\partial^2 A}{\partial x^2} + \frac{n_2}{\eta_0} k^2 |A|^2 A\)</span>
+                    <span class="op">\(=\)</span>
+                    <span class="var">\(2j k \frac{\partial A}{\partial z}\)</span>
+                </div>
+            </div>
+
+            <div class="intro-card">
+                \(A(x, z=0)\), \(A(x, z=L)\)
+            </div>
+             
+            <div class="section-head">
+                <div class="section-head-number"></div>
+                <h2>Third Harmonic Generation</h2>
+            </div>
+
+            <div class="intro-card">
+                In a monochromatic optical field:
+            </div>
+
+            <div class="formula-card">
+                <div class="formula-label"></div>
+                <div class="formula-number">✦</div>
+                <div class="formula">
+                    <span class="var">\(P_{NL} = 4 \chi^{(3)} E^3 \tag{1}\)</span>
+                </div>
+            </div>
+
+            <div class="formula-card">
+                <div class="formula-label"></div>
+                <div class="formula-number">✦</div>
+                <div class="formula">
+                    <span class="var">\(E(t) = \Re \{E(\omega) \exp(j \omega t)\} \tag{2}\)</span>
+                </div>
+            </div>
+
+            <div class="intro-card">
+                From (1) and (2):
+            </div>
+
+            <div class="formula-card">
+                <div class="formula-label"></div>
+                <div class="formula-number">✦</div>
+                <div class="formula">
+                    <span class="var">\(p_{NL}(\omega) = 3 \chi^{(3)} |E(\omega)|^2 E(\omega) \tag{3}\)</span>
+                </div>
+            </div>
+
+            <div class="formula-card">
+                <div class="formula-label"></div>
+                <div class="formula-number">✦</div>
+                <div class="formula">
+                    <span class="var">\(P_{NL}(3\omega) = \chi^{(3)} E^{3}(\omega) \tag{4}\)</span>
+                </div>
+            </div>
+
+            <div class="intro-card">
+                Equation (4) describes Third Harmonic Generation (THG); the conversion efficiency is low.
+            </div>
+
+            <div class="intro-card">
+                THG is often achieved via SHG followed by SFG of fundamental and second harmonic wave.
+            </div>
 
             <div class="section-head">
-				<div class="section-head-number"></div>
-				<h2>Soliton</h2>
-			</div>
+                <div class="section-head-number"></div>
+                <h2>Applications of Third-Order Non-linearity</h2>
+            </div>
 
-            Wave front that propagates long distance without change.
+            <div class="formula-card">
+                <div class="formula-number">✦</div>
+                <div class="formula">
+                    <span class="var">\(\vec{P}\)</span>
+                    <span class="op">\(\propto\)</span>
+                    <span class="var">\(|\vec{E}|^3\)</span>
+                </div>
+            </div>
 
-            <div class="section-head">
-				<div class="section-head-number"></div>
-				<h2>Spatial Soliton</h2>
-			</div>
+            <div class="callout note">
+                <div>
+                    <div class="callout-title">Third Harmonic Generation</div>
+                    A monochromatic wave is <mark>frequency-tripled</mark> as it passes through the medium, the output is at thrice the input frequency.
+                </div>
+            </div>
 
-            Occurs in the time doain when group velocity dispersion is compensated by SPM.
+            <div class="callout note">
+                <div>
+                    <div class="callout-title">Self Phase Modulation</div>
+                    Intensity-dependent refractive index of a medium causes a propagating optical pulse to modulate its own phase.
+                </div>
+            </div>
 
-            if it is time, it is called temporal, if it is space, it is called spatial.
+            <div class="callout note">
+                <div>
+                    <div class="callout-title">Self Focusing</div>
+                    An intense optical beam modifies the refractive index of the medium, creating a graded-index waveguide that focuses the beam itself, counteracting diffraction.
+                </div>
+            </div>
 
-            Intense optical beam travels through substantial thickness of non-linear medium.
+            <div class="callout note">
+                <div>
+                    <div class="callout-title">Four Wave Mixing</div>
+                    Interaction of three optical waves in a third-order nonlinear medium generates a fourth wave at a frequency \(\omega_4 = \omega_1 + \omega_2 + \omega_3\) or \(\omega_4 = \omega_1 + \omega_2 - \omega_3\), enabling wavelength conversion and parametric amplification.
+                </div>
+            </div>
 
-            Refractive index is altered non-uniformly.
-
-            Medium acts as a graded index wave guide, maximum at maxima.
-
-            beam can create its own wave guide.
-
-            If the intensity of the beam has same spatial distribution in the transverse plane as one of the modes of the wave guide, that the beam itself creates.
-            
-            beam propagates self consistently without changing its spatial distribution.
-
-            diffraction is compensated by self phase modulation (SPM).
-
-            self guided beam, that is called, spatial solitons.
-
-            Self guiding of light in optical kerr medium, 
-
-            Helmholtz equation 
-
-            \[
-                \Delta^2 + n^(I) k_0^2 E = 0
-            \]
-
-            \[
-                n(I) = n + n_2 I
-            \]
-
-            \[
-                k_0 = \frac{2 \pi}{\lambda} = \frac{\omega}{c}
-            \]
-
-            \[
-                I = \frac{|E|^2}{2 \eta}
-            \]
-
-            Input: 
-            \[
-                E = A exp(- j k z)
-            \]
-
-            \[
-                k = nk_0
-            \]
-
-
-            A is function of (x, z)
-
-            \[
-                \frac{\partial^2}{\partial z^2} \left[ A exp(-j k z) \right] \simeq (-2 j k \frac{\partial A}{\partial z})  - k^2 A exp(-j k z)
-            \]
-
-            \[
-                \frac{\partial^2}{\partial z^2} - 2jk \frac{\partial A}{\partial z} + k^2 \left[ n^2(I) - n^2\right] A = 0
-            \]
-
-            \[
-                (n^(I) - n^2) = \left[n(I) + n\right]\left[n(I) - n \right] = n_2 I (2n) = \frac{2n_2 n |A|^2}{2\eta} = \frac{n_2 n |A|^2}{\eta}
-            \]
-
-
-            non-linear schrodinger equation
-            \[
-                \frac{\partial^2 A}{\partial x^2} + \frac{n_2}{\eta_0}k^2|A|^2 A = 2j k \frac{\partial A}{\partial z}
-            \]
-
-            A(x, z=0), A(x, z=L)
-
-            
-             <div class="section-head">
-				<div class="section-head-number"></div>
-				<h2>Third Harmonic Generation</h2>
-			</div>
-
-            in monochromatic optical field
-
-            \[
-                P_{NL} =  4 \chi^{(3)} E^3
-                \tag{1}
-            \]
-            
-            \[
-                E(t) = Re \{E(\omega exp (j \omega t))\}
-                \tag{2}
-            \]
-
-            From (1) and (2),
-
-            \[
-                p_{NL}(\omega) = 3 \chi^{(3)} |E(\omega)|^2 E(\omega)
-                \tag{3}
-            \]
-
-            \[
-                P_{NL}(3\omega) = \chi^{(3)} E^{3} (\omega)
-                \tag{4}
-            \]
-
-            Equation (4), THG, the conversion efficiency is low.
-
-            THG is often achieved via SHG followed by SFG of fundamental and second harmonic wave.
-
+            <div class="callout note">
+                <div>
+                    <div class="callout-title">Phase Conjugation</div>
+                    A nonlinear process that generates a wave with the phase conjugate of the input wave, allowing compensation of optical distortions and aberration correction in imaging systems.
+                </div>
+            </div>
+           
             <script src="https://nano-library.github.io/dynamic-behavior-and-interactivity/topic.js"></script>
             <script src="https://nano-library.github.io/dynamic-behavior-and-interactivity/navigation.js"></script>
         </div>
