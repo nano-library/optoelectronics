@@ -186,7 +186,7 @@
             
             <div class="section-head">
                 <div class="section-head-number"></div>
-                <h2>Third-Order Nonlinear Coefficient (\(\chi^{(3)}\))</h2>
+                <h2>Third-Order non-linear Coefficient (\(\chi^{(3)}\))</h2>
             </div>
 
             <div class="intro-card">
@@ -305,7 +305,7 @@
             </div>
 
             <div class="intro-card">
-                \(\chi^{(3)}\) is a fourth-rank tensor \(\chi_{ijkl}^{(3)}\). It connects the polarization \(P_i^{(3)}\) to the product of electric fields \(E_j E_k E_l\). The tensor nature describes how the nonlinear response depends on the direction of fields and crystal orientation.
+                \(\chi^{(3)}\) is a fourth-rank tensor \(\chi_{ijkl}^{(3)}\). It connects the polarization \(P_i^{(3)}\) to the product of electric fields \(E_j E_k E_l\). The tensor nature describes how the non-linear response depends on the direction of fields and crystal orientation.
             </div>
 
             <div class="formula-card">
@@ -319,7 +319,7 @@
             </div>
 
             <div class="intro-card">
-                The nonlinear Kerr effect can act as a lens (self-focusing or self-defocusing) due to intensity-dependent refractive index.
+                The non-linear Kerr effect can act as a lens (self-focusing or self-defocusing) due to intensity-dependent refractive index.
             </div>
 
             <div class="formula-card">
@@ -347,7 +347,7 @@
             </div>
 
             <div class="intro-card">
-                \(n_2\) is the nonlinear refractive index coefficient. It describes how the refractive index changes with light intensity: \(n = n_0 + n_2 I\), where \(n_0\) is the linear refractive index. A positive \(n_2\) causes self-focusing (beam narrows), while a negative \(n_2\) causes self-defocusing (beam spreads).
+                \(n_2\) is the non-linear refractive index coefficient. It describes how the refractive index changes with light intensity: \(n = n_0 + n_2 I\), where \(n_0\) is the linear refractive index. A positive \(n_2\) causes self-focusing (beam narrows), while a negative \(n_2\) causes self-defocusing (beam spreads).
             </div>
 
             <div class="intro-card">
@@ -476,7 +476,7 @@
             </div>
 
             <div class="intro-card">
-                Self focusing is associated with self-phase modulation, where an intense beam transmits through or induces a shift in the nonlinear material.
+                Self focusing is associated with self-phase modulation, where an intense beam transmits through or induces a shift in the non-linear material.
             </div>
 
             <div class="intro-card">
@@ -488,7 +488,7 @@
             </div>
 
             <div class="intro-card">
-                The nonlinear sheet then acts as a graded-index medium.
+                The non-linear sheet then acts as a graded-index medium.
             </div>
 
             <div class="intro-card">
@@ -647,7 +647,7 @@
             </div>
 
             <div class="intro-card">
-                Substituting into the wave equation with intensity-dependent refractive index \(n(I)\) yields the nonlinear Schrödinger equation:
+                Substituting into the wave equation with intensity-dependent refractive index \(n(I)\) yields the non-linear Schrödinger equation:
             </div>
 
             <div class="formula-card">
@@ -785,17 +785,139 @@
             <div class="callout note">
                 <div>
                     <div class="callout-title">Four Wave Mixing</div>
-                    Interaction of three optical waves in a third-order nonlinear medium generates a fourth wave at a frequency \(\omega_4 = \omega_1 + \omega_2 + \omega_3\) or \(\omega_4 = \omega_1 + \omega_2 - \omega_3\), enabling wavelength conversion and parametric amplification.
+                    Interaction of three optical waves in a third-order non-linear medium generates a fourth wave at a frequency \(\omega_4 = \omega_1 + \omega_2 + \omega_3\) or \(\omega_4 = \omega_1 + \omega_2 - \omega_3\), enabling wavelength conversion and parametric amplification.
                 </div>
             </div>
 
             <div class="callout note">
                 <div>
                     <div class="callout-title">Phase Conjugation</div>
-                    A nonlinear process that generates a wave with the phase conjugate of the input wave, allowing compensation of optical distortions and aberration correction in imaging systems.
+                    A non-linear process that generates a wave with the phase conjugate of the input wave, allowing compensation of optical distortions and aberration correction in imaging systems.
                 </div>
             </div>
-           
+
+            <div class="section-head">
+                <div class="section-head-number"></div>
+                <h2>Cross Phase Modulation (XPM)</h2>
+            </div>
+
+            <div class="intro-card">
+                Cross phase modulation is a non=linear effect where one wave controls the phase of another wave.
+            </div>
+
+            <div class="intro-card">
+                Input consists of two waves:
+            </div>
+
+            <div class="formula-card">
+                <div class="formula-number">✦</div>
+                <div class="formula-label"></div>
+                <div class="formula">
+                    <span class="var">\(E(t)\)</span>
+                    <span class="op">\(=\)</span>
+                    <span class="var">\(\mathrm{Re}\{ E(\omega_1) e^{j \omega_1 t}\} + \mathrm{Re}\{E(\omega_2) e^{j \omega_2 t}\}\)</span>
+                </div>
+            </div>
+
+            <div class="intro-card">
+                Polarization in a non-linear medium for third-order non-linearity:
+            </div>
+
+            <div class="formula-card">
+                <div class="formula-number">✦</div>
+                <div class="formula-label"></div>
+                <div class="formula">
+                    <span class="var">\(P_{\text{NL}}\)</span>
+                    <span class="op">\(=\)</span>
+                    <span class="var">\(4 \chi^{(3)} E^3\)</span>
+                </div>
+            </div>
+
+            <div class="intro-card">
+                The non-linear polarization at frequency \(\omega_1\) includes contributions from both waves:
+            </div>
+
+            <div class="formula-card">
+                <div class="formula-number">✦</div>
+                <div class="formula-label"></div>
+                <div class="formula">
+                    <span class="var">\(P_{\text{NL}}(\omega_1)\)</span>
+                    <span class="op">\(=\)</span>
+                    <span class="var">\(\chi^{(3)} \left[ 3 |E(\omega_1)|^2 + 6|E(\omega_2)|^2 \right] E(\omega_1)\)</span>
+                </div>
+            </div>
+
+            <div class="intro-card">
+                This can be expressed in terms of the change in susceptibility:
+            </div>
+
+            <div class="formula-card">
+                <div class="formula-number">✦</div>
+                <div class="formula-label"></div>
+                <div class="formula">
+                    <span class="var">\(P_{\text{NL}}(\omega_1)\)</span>
+                    <span class="op">\(=\)</span>
+                    <span class="var">\(2 \varepsilon_0 n \Delta \chi E(\omega_1)\)</span>
+                </div>
+            </div>
+
+            <div class="intro-card">
+                The intensity-dependent change in refractive index is:
+            </div>
+
+            <div class="formula-card">
+                <div class="formula-number">✦</div>
+                <div class="formula-label"></div>
+                <div class="formula">
+                    <span class="var">\(\Delta n\)</span>
+                    <span class="op">\(=\)</span>
+                    <span class="var">\(n_2 (I_1 + 2 I_2)\)</span>
+                </div>
+            </div>
+
+            <div class="intro-card">
+                where \(I_1\) is the intensity of the first wave and \(I_2\) is the intensity of the second wave.
+            </div>
+
+            <div class="intro-card">
+                Physical meaning: When two waves propagate through a non-linear medium, we can use the intensity of one wave to modulate the phase of the other wave.
+            </div>
+
+            <div class="intro-card">
+                The phase change is given by:
+            </div>
+
+            <div class="formula-card">
+                <div class="formula-number">✦</div>
+                <div class="formula-label"></div>
+                <div class="formula">
+                    <span class="var">\(\Delta \phi\)</span>
+                    <span class="op">\(=\)</span>
+                    <span class="frac">
+                        <span class="frac-num">
+                            <span class="var">\(2\pi\)</span>
+                        </span>
+                        <span class="frac-den">
+                            <span class="var">\(\lambda\)</span>
+                        </span>
+                    </span>
+                    <span class="var">\(\Delta n L\)</span>
+                </div>
+            </div>
+
+            <div class="intro-card">
+                Therefore, wave 1 travels with an effective index \(n + \Delta n\) controlled by its own intensity as well as that of wave 2.
+            </div>
+
+            <div class="intro-card">
+                Similarly, wave 2 encounters a similar effect. Thus, the two waves are coupled.
+            </div>
+
+            <div class="intro-card">
+                This coupling can result in contamination of information between optical communication channels at neighbouring frequencies in wavelength division multiplexing (WDM).
+            </div>
+
+            
             <script src="https://nano-library.github.io/dynamic-behavior-and-interactivity/topic.js"></script>
             <script src="https://nano-library.github.io/dynamic-behavior-and-interactivity/navigation.js"></script>
         </div>
