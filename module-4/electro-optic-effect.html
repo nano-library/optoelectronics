@@ -433,6 +433,213 @@
 
             <div class="section-head">
                 <div class="section-head-number"></div>
+                <h2>Applications of Electro-optic effect</h2>
+            </div>
+
+             <ul>
+                <li class="no-num">Control of the amplitude of a light beam by an electric field \(E\)</li>
+                <li class="no-num">Impose information on a light through electro-optic effect, such that it has great use in optical communication, requiring modulation of optical beam at very high frequencies, as mechanical shutters or moving mirrors have too much intertia to enable modulation.</li>
+            </ul>
+
+            <div class="intro-card">
+                Potassium Dideutenium Phosphate (KDP) and Ammonium Dihydrogen Phosphate (ADP) crcrystals show Electro-optic effect. <br>
+                show the control of light propagating through them.
+            </div>
+
+            <div class="intro-card">
+                In absence of electric field \(E\), these crystals are uniaxial and have four fold axis of symmetry (\(\frac{2\pi}{4}\) symmetry).
+            </div>
+
+            <div class="section-head">
+                <div class="section-head-number"></div>
+                <h2>Case 1:</h2>
+            </div>
+
+            <div class="intro-card">
+                Light propagates along c-axis of KDP crystal (z-axis), when electric field is applied along z-axis, logitudinal direction.
+            </div>
+
+            <div class="intro-card">
+                \(E=0\), crystal is uniaxial, optic axis (direction of crystal) along z-direction, a light polarised normal to z-axis, travels as princple wave with \(n_0\).
+            </div>
+
+            <div class="intro-card">
+                \(E\neq 0\), crystal is biaxial, two eigen polarizations () which propagate through the crystal without change of 'SOP' (state of polarization) lie along \(45^{\circ}\) to x and y-axis.
+            </div>
+
+            <div class="intro-card">
+                Eigen polarization (more commonly called eigenstates of polarization) refers to special polarization states of light that remain unchanged when passing through an optical system or medium.
+            </div>
+
+            <div class="intro-card">
+                x' have 45 degree to x, y' have 45 degree to y 
+            </div>
+
+            \[
+                n_{x'} = n_0 - \frac{1}{2}n_0^2 r_{63}E_z
+            \]
+
+            \[
+                n_{y'} = n_0 + \frac{1}{2}n_0^2 r_{63}E_z
+            \]
+
+            <div class="intro-card">
+                \(r_{63}\) coefficient of electro-optic effect.
+            </div>
+
+            <div class="intro-card">
+                 Suppose applied electric field is 10kV, crystal thickness is 1 cm, 
+            </div>
+
+            \[
+                E = \frac{v}{d} = 10^{6} \text{ v/m }
+            \]
+
+            <div class="intro-card">
+                For KDP, \(n_0 = 1.512\), and \(r_{63} = 10.5 \times 10^{-12}\) m/v
+            </div>
+
+            \[
+                n_0 - n_{x'} = \frac{1}{2}n_0^3 r_{63} E_z = 2 \times 10^{-5}
+            \]
+
+            <div class="intro-card">
+                The change is very small, for this change, with \(\Delta n L\) is optical length, \(lambda = 0.5 \, \mu m\), the phase shift will be 
+            </div>
+
+            \[
+                \Delta \phi = \frac{2\pi}{\lambda}(\Delta n L)
+            \]
+
+            \[
+                \Delta \phi = 0.8 \pi
+            \]
+
+            <div class="section-head">
+                <div class="section-head-number"></div>
+                <h2>Electro-Optic Phase Modulation</h2>
+            </div>
+
+            <div class="intro-card">
+                We can alter phase of a light beam by applying external electric field.
+            </div>
+
+            <div class="intro-card">
+                Assume linearly polarized wave, propagating along z-axis in KDP crystal, polarised along \(x^{'}\) axis, 
+                then an external electric field is applied along z-direction.
+            </div>
+
+            <div class="intro-card">
+                since \(x^{'}\) direction, corresponds to principal axis, linear polarized light will propagate without any change in SOP (state of polarization).
+            </div>
+
+            <div class="intro-card">
+                If the crystal length 'L' along the z-direction, wave emerging from the crystal will be given by
+            </div>
+            
+            \[
+                \epsilon_{x^{'}}(z=L) = \epsilon_{x^{'}}(0) \cos{\left[ \omega t - n_{x^{'}} k_0 L\right]}
+            \]
+
+            \[
+                k = n k_0
+            \]
+
+            \[
+                \epsilon_{x^{'}}(z=L) = \epsilon_{x^{'}}(0) \cos{\left[ \omega t - \frac{n_0 \omega L}{c} + \frac{\omega}{2c} n_0^3 r_{63} E_z L \right]}
+            \]
+
+            \[
+                k_0 = \frac{\omega}{c}
+            \]
+
+            <div class="intro-card">
+                If V is applied voltage
+            </div>
+
+            \[
+                V = E_z L
+            \]
+            
+            <div class="intro-card">
+                If applied voltage oscillating with frequency \(\omega_n\)
+            </div>
+
+            \[
+                V = V_0 \left(\sin{\omega_n t}\right)
+            \]
+
+            <div class="intro-card">
+                Using applied voltage V,
+            </div>
+
+            \[
+                E_z L = V
+            \]
+
+            \[
+                \epsilon_{x^{'}}(z=L) = \epsilon_{x^{'}}(0) \cos{\left[ \omega t - k_0 n_0 L + \frac{\omega}{2c} n_0^3 r_{63} V_0 \left(\sin{\omega_n t}\right) \right]}
+            \]
+
+            \[
+                \epsilon_{x^{'}}(z=L) = \epsilon_{x^{'}}(0) \cos{\left[ \omega t - k_0 n_0 L + \xi \left(\sin{\omega_n t}\right) \right]}
+            \]
+
+            \[
+                \xi = \left(\frac{\omega}{2c} n_0^3 r_{63} V_0\right) \quad \text{ Phase modulation index }
+            \]
+
+            \[
+                \cos{\left(\xi \sin{\omega_n t} \right)} = \mathcal{J}_0(\xi) + \left( 2 \mathcal{J}_2(\xi) \cos{2 \omega_n t}\right) + 2 \mathcal{J}_4(\xi) \cos{4 \omega_4 t} + \ldots
+            \]
+
+            \[
+                \sin{\left(\xi \sin{\omega_n t} \right)} = 2\mathcal{J}_1 \sin{\omega_n t} + 2 \mathcal{J}_3(\xi) \sin{3\omega_n t} + \ldots
+            \]
+
+            \[
+                \begin{aligned}
+                    \epsilon_{x^{'}}(z) = \epsilon_{x^{'}}(0)\Big[ 
+                        &\mathcal{J}_0(\xi)\cos(\omega t - n_0 k_0 L) \\
+                        &+ \mathcal{J}_1(\xi)\cos\big((\omega + \omega_0)t - n_0 k_0 L\big) \\
+                        &- \mathcal{J}_1(\xi)\cos\big((\omega - \omega_n)t - n_0 k_0 L\big) \\
+                        &+ \mathcal{J}_2(\xi)\cos\big((\omega + 2\omega_0)t - n_0 k_0 L\big) \\
+                        &+ \ldots
+                    \Big]
+                \end{aligned}
+            \]
+
+            <div class="intro-card">
+                Output beam contains of \(\mathcal{J}_2(\xi)\) amplitude and \(\omega\) frequency
+            </div>
+
+            <div class="intro-card">
+                Side bands at frequencies, \(w \pm w_n\) and \(\omega \pm 2 \omega_n\), etc. with amplitude \(\mathcal{J}_1 (\xi), \mathcal{J}_2 (\xi)\)
+            </div>
+
+            <div class="section-head">
+                <div class="section-head-number"></div>
+                <h2>Electro-Optic Amplitude Modulation</h2>
+            </div>
+
+            <div class="intro-card">
+                Wave should in z-direction through KDP crystal, then linearly polarised wave along y-direction, so we can decompose it into \(x^{'}\) and \(y^{'}\) directions, with equal amplitudes.
+            </div>
+
+            \[
+                \epsilon_{x^{'}}(z=L) = \epsilon_{x^{'}}(0) e^{ i \left(\omega t - \frac{n_0 \omega L}{c} + \frac{\omega}{2c} n_0^3 r_{63} E_z L \right)}
+            \]
+
+            \[
+                \epsilon_{y^{'}}(z=L) = \epsilon_{y^{'}}(0) e^{ i \left(\omega t - \frac{n_0 \omega L}{c} - \frac{\omega}{2c} n_0^3 r_{63} E_z L \right)}
+            \]
+
+            <div class="intro-card">
+                The phase difference, or the retardation is \(\frac{\omega}{c} n_0^3 r_{63} E_z L\)
+            </div>
+
+            <div class="section-head">
+                <div class="section-head-number"></div>
                 <h2>Pockel's Effect</h2>
             </div>
 
@@ -446,13 +653,13 @@
             </div>
 
             <ul>
-                <li>Control of the amplitude of a light beam by an electric field \(E\)</li>
-                <li>Optical switches</li>
-                <li>Bistable devices (two stages of output)</li>
-                <li>Integrated optics</li>
-                <li>Phase, amplitude, and frequency modulation of light</li>
-                <li>Q-switching in pulsed lasers</li>
-                <li>Mode locking of lasers (pulsed lasers)</li>
+                <li class="no-num">Control of the amplitude of a light beam by an electric field \(E\)</li>
+                <li class="no-num">Optical switches</li>
+                <li class="no-num">Bistable devices (two stages of output)</li>
+                <li class="no-num">Integrated optics</li>
+                <li class="no-num">Phase, amplitude, and frequency modulation of light</li>
+                <li class="no-num">Q-switching in pulsed lasers</li>
+                <li class="no-num">Mode locking of lasers (pulsed lasers)</li>
             </ul>
 
             <script src="https://nano-library.github.io/dynamic-behavior-and-interactivity/topic.js"></script>
